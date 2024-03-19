@@ -219,6 +219,82 @@
     font-display:swap;
 }
 
+/* Custome Fonts */
+
+    /* Turbo-Regular */
+@font-face {
+    font-family: 'Turbo-Regular';
+    src: url(/css/fonts/Baton-Turbo/Baton-Turbo-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Turbo-Book';
+    src: url(/css/fonts/Baton-Turbo/Baton-Turbo-Book.otf);
+}
+
+@font-face {
+    font-family: 'Turbo-Medium';
+    src: url(/css/fonts/Baton-Turbo/Baton-Turbo-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Turbo-Bold';
+    src: url(.../css/fonts/Baton-Turbo/Baton-Turbo-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Turbo-Heavy';
+    src: url(/css/fonts/Baton-Turbo/Baton-Turbo-Heavy.otf);
+}
+
+    /* Greycliff-CF */
+@font-face {
+    font-family: 'Grey-Bold';
+    src: url(/css/fonts/Greycliff-CF/Greycliffcf-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Grey-ExtraBold';
+    src: url(/css/fonts/Greycliff-CF/Greycliffcf-Extrabold.otf);
+}
+
+@font-face {
+    font-family: 'Grey-ExtraLight';
+    src: url(/css/fonts/Greycliff-CF/Greycliffcf-Extralight.otf);
+}
+
+@font-face {
+    font-family: 'Grey-Heavy';
+    src: url(/css/fonts/Greycliff-CF/Greycliffcf-Heavy.otf);
+}
+
+@font-face {
+    font-family: 'Grey-Light';
+    src: url(/css/fonts/Greycliff-CF/Greycliffcf-Light.otf);
+}
+
+@font-face {
+    font-family: 'Grey-Medium';
+    src: url(/css/fonts/Greycliff-CF/Greycliffcf-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Grey-Regular';
+    src: url(/css/fonts/Greycliff-CF/Greycliffcf-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Grey-SemiBold';
+    src: url(/css/fonts/Greycliff-CF/Greycliffcf-Semibold.otf);
+}
+
+@font-face {
+    font-family: 'Grey-Thin';
+    src: url(/css/fonts/Greycliff-CF/Greycliffcf-Thin.otf);
+}
+
+/* ******************* */
+
 img{max-width:100%;}
 input.text,
 input[type="text"],
