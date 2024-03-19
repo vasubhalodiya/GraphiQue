@@ -496,7 +496,12 @@ nav{
 
 .about-cnt-big-txt h3
 {
-    
+    color: #FDFDFD;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Grey-Medium';
+    letter-spacing: 1px;
+    line-height: 80px;
 }
 
 /* .about-cnt-underline marquee
