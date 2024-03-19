@@ -494,9 +494,24 @@ nav{
     z-index: -1;
 }
 
+.about-cnt-big-txt h3
+{
+    
+}
 
+/* .about-cnt-underline marquee
+{
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 3s linear infinite;
+}
 
-
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+} */
+  
 
 
 
