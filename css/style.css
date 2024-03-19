@@ -223,27 +223,27 @@
 
     /* Turbo-Regular */
 @font-face {
-    font-family: 'Turbo-Regular';
+    font-family: 'BatonTurbo-Regular';
     src: url(../css/fonts/Baton-Turbo/Baton-Turbo-Regular.otf);
 }
 
 @font-face {
-    font-family: 'Turbo-Book';
+    font-family: 'BatonTurbo-Book';
     src: url(../css/fonts/Baton-Turbo/Baton-Turbo-Book.otf);
 }
 
 @font-face {
-    font-family: 'Turbo-Medium';
+    font-family: 'BatonTurbo-Medium';
     src: url(../css/fonts/Baton-Turbo/Baton-Turbo-Medium.otf);
 }
 
 @font-face {
-    font-family: 'Turbo-Bold';
+    font-family: 'BatonTurbo-Bold';
     src: url(../css/fonts/Baton-Turbo/Baton-Turbo-Bold.otf);
 }
 
 @font-face {
-    font-family: 'Turbo-Heavy';
+    font-family: 'BatonTurbo-Heavy';
     src: url(../css/fonts/Baton-Turbo/Baton-Turbo-Heavy.otf);
 }
 
@@ -340,12 +340,12 @@ body{
 .container{
     width: 100%;
     max-width: 1170px;
-    margin: 0px 70px;
+    margin: 0px auto;
 }
 
 /* ************************************************************************************* */
 
-a,button{
+/* a,button{
     cursor: pointer;
 }
 
@@ -422,16 +422,78 @@ nav{
 .hamburger.open #bar3{
     background-color: #fff;
     transform: rotate(-45deg) translate(6px, -5px);
+} */
+
+/* ********************************************************************* */
+
+.about-heading-main
+{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0px;
 }
 
+.about-head h3
+{
+    color: #FDFDFD;
+    font-size: 30px;
+    font-family: 'BatonTurbo-Medium';
+    margin-bottom: 30px;
+}
 
+.about-float-txt
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
 
+.letter-float-delay {
+    -webkit-animation: float 1.5s infinite  alternate;
+    animation: float 1.5s infinite  alternate;
+    rotate: -10deg;
+}
 
+.letter-float {
+    -webkit-animation: float 1.3s infinite  alternate;
+    animation: float 1.3s infinite  alternate;
+    rotate: -10deg;
+}
 
+@-webkit-keyframes float {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-4px); }
+}
 
+@keyframes float {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-4px); }
+}
 
+.about-head-txt h2
+{
+    width: 980px;
+    margin: 0 auto;
+    color: #FDFDFD;
+    font-size: 80px;
+    font-family: 'BatonTurbo-Bold';
+    letter-spacing: 1px;
+    line-height: 80px;
 
+    position: relative;
+}
 
+.about-bg-circle svg
+{
+    width: 100%;
+    height: 50%;
+
+    position: absolute;
+    bottom: 15px;
+    left: -390px;
+    z-index: -1;
+}
 
 
 
