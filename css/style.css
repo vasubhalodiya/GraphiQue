@@ -484,14 +484,13 @@ nav{
     position: relative;
 }
 
-.about-bg-circle svg
+.about-bg-circle img
 {
-    width: 100%;
-    height: 50%;
+    width: 30%;
 
     position: absolute;
     bottom: 15px;
-    left: -390px;
+    left: 130px;
     z-index: -1;
 }
 
@@ -520,8 +519,70 @@ nav{
 
 
 
+/* *************************************** SERVICE *******************************************************/
 
+.background-color
+{
+    background-color: #F0F0F0;
+}
 
+.service-heading-main
+{
+    width: 100%;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.service-head h3
+{
+    color: #1658b3;
+    font-size: 25px;
+    font-family: 'BatonTurbo-Medium';
+    margin-bottom: 30px;
+}
+
+.service-float-txt
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.letter-float-delay {
+    -webkit-animation: float 1.5s infinite  alternate;
+    animation: float 1.5s infinite  alternate;
+    rotate: -10deg;
+}
+
+.letter-float {
+    -webkit-animation: float 1.3s infinite  alternate;
+    animation: float 1.3s infinite  alternate;
+    rotate: -10deg;
+}
+
+@-webkit-keyframes float {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-4px); }
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-4px); }
+}
+
+.service-head-txt h2
+{
+    width: 980px;
+    margin: 0 auto;
+    color: #1658b3;
+    font-size: 80px;
+    font-family: 'BatonTurbo-Bold';
+    letter-spacing: 1px;
+    line-height: 80px;
+
+    position: relative;
+}
 
 
 
