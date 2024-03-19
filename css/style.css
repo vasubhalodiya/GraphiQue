@@ -250,47 +250,47 @@
     /* Greycliff-CF */
 @font-face {
     font-family: 'Grey-Bold';
-    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Bold.otf);
+    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Bold.ttf);
 }
 
 @font-face {
     font-family: 'Grey-ExtraBold';
-    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Extrabold.otf);
+    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Extrabold.ttf);
 }
 
 @font-face {
     font-family: 'Grey-ExtraLight';
-    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Extralight.otf);
+    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Extralight.ttf);
 }
 
 @font-face {
     font-family: 'Grey-Heavy';
-    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Heavy.otf);
+    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Heavy.ttf);
 }
 
 @font-face {
     font-family: 'Grey-Light';
-    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Light.otf);
+    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Light.ttf);
 }
 
 @font-face {
     font-family: 'Grey-Medium';
-    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Medium.otf);
+    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Medium.ttf);
 }
 
 @font-face {
     font-family: 'Grey-Regular';
-    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Regular.otf);
+    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Grey-SemiBold';
-    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Semibold.otf);
+    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Semibold.ttf);
 }
 
 @font-face {
     font-family: 'Grey-Thin';
-    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Thin.otf);
+    src: url(../css/fonts/Greycliff-CF/Greycliffcf-Thin.ttf);
 }
 
 /* ******************* */
@@ -494,14 +494,25 @@ nav{
     z-index: -1;
 }
 
+.about-content-main
+{
+    padding: 50px 0px;
+}
+
+.about-content
+{
+    margin: 0 100px;
+}
+
 .about-cnt-big-txt h3
 {
+    width: 100%;
     color: #FDFDFD;
     margin: 0 auto;
-    font-size: 30px;
-    font-family: 'Grey-Medium';
+    font-size: 35px;
+    font-family: 'Grey-Bold';
     letter-spacing: 1px;
-    line-height: 80px;
+    line-height: 45px;
 }
 
 /* .about-cnt-underline marquee
@@ -597,7 +608,7 @@ nav{
     margin: 0 auto;
     color: #1658b3;
     font-size: 80px;
-    font-family: 'BatonTurbo-Bold';
+    font-family: 'BatonTurbo-Heavy';
     letter-spacing: 1px;
     line-height: 80px;
 
