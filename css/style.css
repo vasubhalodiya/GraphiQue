@@ -486,11 +486,11 @@ nav{
 
 .about-bg-circle img
 {
-    width: 30%;
+    width: 450px;
 
     position: absolute;
-    bottom: 15px;
-    left: 130px;
+    top: 255px;
+    left: 100px;
     z-index: -1;
 }
 
@@ -501,7 +501,7 @@ nav{
 
 .about-content
 {
-    margin: 0 100px;
+    margin: 0 50px;
 }
 
 .about-cnt-big-txt h3
@@ -517,27 +517,32 @@ nav{
 
 .about-cnt-underline marquee
 {
-    
+    padding: 30px 0px;
 }
 
-/* .about-cnt-underline marquee
+.about-part-section .col-lg-4
 {
-    position: absolute;
-    white-space: nowrap;
-    will-change: transform;
-    animation: marquee 3s linear infinite;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-@keyframes marquee {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
-} */
-  
+.about-part-cnt h4
+{
+    color: #FDFDFD;
+    font-size: 23px;
+    font-family: 'BatonTurbo-Bold';
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
 
-
-
-
-
+.about-part-cnt p
+{
+    color: #FDFDFD;
+    font-size: 14px;
+    font-family: 'Grey-Regular';
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
 
 
 
