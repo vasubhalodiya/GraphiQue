@@ -19,16 +19,25 @@
             
 
 
-
         </div>
 
 <!-- *********************************************************************** -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/slick.min.js"></script>
-        <script src="js/wow.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
 
+<!-- Smooth Scroll -->
 
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+    <script>
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('.main'),
+            smooth: true,
+            lerp: 0.050
+        });
+    </script>
 
     </body>
 </html>
