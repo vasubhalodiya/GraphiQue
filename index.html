@@ -19,6 +19,25 @@
     <body>
         <div class="main" id="main-site">
               
+            <div class="navigation">
+                <button class="hamburger" onclick="show()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </button>
+                <div class="nav-menu">
+                    <nav>
+                        <ul>
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            
 
         </div>
 
@@ -39,6 +58,14 @@
             lerp: 0.050
         });
     </script>
+
+    <script>
+        function show() {
+            document.querySelector('.hamburger').classList.toggle('open')
+            document.querySelector('.navigation').classList.toggle('active')
+        }
+    </script>
+
 
     </body>
 </html>
