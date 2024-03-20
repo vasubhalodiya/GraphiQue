@@ -736,12 +736,18 @@ nav{
     position: relative;
 }
 /*****************************************SERVICE_PAGE_1**********************************************/
-.service-post-img img{
-    height: 828px;
-    width: 1419px;
-    object-fit: contain;
+
+.service-post-main
+{
+    max-width: 100vw;
+    height: 100px;
 }
 
+.service-post-img img{
+    width: 555px;
+    height: 100%;
+    object-fit: contain;
+}
 
 
 
