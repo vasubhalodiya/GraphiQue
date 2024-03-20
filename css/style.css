@@ -612,6 +612,13 @@ nav{
     padding: 50px 0px;
     border-top: 2px solid #82a2cd;
     border-bottom: 2px solid #82a2cd;
+    margin-top: -2px;
+}
+
+.service-post-number
+{
+    display: flex;
+    align-items: center;
 }
 
 .service-post-number h4
@@ -650,10 +657,29 @@ nav{
     font-size: 48px;
 }
 
+.service-link:hover .post-name-txt h3
+{
+    color: #82A3D0;
+    transition: 0.5s ease-out 100ms
+}
 
+.service-big-link-cnt
+{
+    display: flex;
+    gap: 400px;
+}
 
+.service-big-link
+{
+    display: flex;
+    justify-content: space-between;
+}
 
-
+.service-post-btn
+{
+    display: flex;
+    align-items: center;
+}
 
 
 
