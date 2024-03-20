@@ -624,10 +624,31 @@ nav{
     letter-spacing: 2px;
 }
 
+.service-big-link-cnt
+{
+    display: flex;
+}
 
+.service-post-name
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+}
 
+.post-name-img img
+{
+    width: 60px;
+}
 
-
+.post-name-txt h3
+{
+    color: #1658b3;
+    font-family: 'BatonTurbo-Bold';
+    font-size: 48px;
+}
 
 
 
@@ -737,10 +758,11 @@ nav{
 }
 /*****************************************SERVICE_PAGE_1**********************************************/
 
-.service-post-main
+.service-post-img img
 {
-    max-width: 100vw;
+    width: 100%;
     height: 100px;
+    object-fit: contain;
 }
 
 
