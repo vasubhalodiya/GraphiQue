@@ -562,9 +562,39 @@ nav{
     margin-bottom: 20px;
 }
 
+.we-offer-main
+{
+    background-color: #FDFDFD;
+    padding: 100px 0px;
+}
 
+.we-offer
+{
+    margin: 0px 50px;
+}
 
+.we-float-txt
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    letter-spacing: 2px;
+}
 
+.we-float-txt h3
+{
+    color: #1658b3;
+    font-family: 'BatonTurbo-Medium';
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.we-head-big h3
+{
+    color: #1658b3;
+    font-family: 'BatonTurbo-Bold';
+    font-size: 48px;
+}
 
 
 
