@@ -424,6 +424,24 @@ nav{
     transform: rotate(-45deg) translate(6px, -5px);
 } */
 
+.navbar
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #0D1117;
+}
+
+.navbar a
+{
+    color: white;
+}
+
+.navbar a:hover
+{
+    color: white;
+}
+
 /* ********************************************************************* */
 
 .about-heading-main
