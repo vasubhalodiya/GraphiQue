@@ -589,12 +589,75 @@ nav{
     margin-bottom: 15px;
 }
 
+.we-heading
+{
+    margin-bottom: 100px;
+}
+
 .we-head-big h3
 {
     color: #1658b3;
     font-family: 'BatonTurbo-Bold';
-    font-size: 48px;
+    font-size: 60px;
 }
+
+/* .divider
+{
+    background-color: #82A2CD;
+    height: 1px;
+} */
+
+.service-big-link
+{
+    padding: 50px 0px;
+    border-top: 2px solid #82a2cd;
+    border-bottom: 2px solid #82a2cd;
+}
+
+.service-post-number h4
+{
+    color: transparent;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #1658b3;
+    font-family: 'Grey-Heavy';
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
