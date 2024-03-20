@@ -674,8 +674,8 @@ nav{
 }
 /*****************************************SERVICE_PAGE_1**********************************************/
 .service-post-img img{
-    height: 828px;
-    width: 1419px;
+    height: 540px;
+    width: 900px;
     object-fit: contain;
 }
 
