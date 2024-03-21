@@ -746,10 +746,14 @@ nav{
     box-sizing: border-box;
     margin: 0px;
 }
-.service-post-img{
-    box-sizing: border-box;
-    margin-bottom: 100px;
+.logo{
+    color: #1658b3;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'BatonTurbo-Bold';
 }
+
 
 
 
