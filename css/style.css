@@ -737,22 +737,6 @@ nav{
 }
 /*****************************************SERVICE_PAGE_1**********************************************/
 
-.service-post-main
-{
-    display: block;
-    overflow: hidden;
-    position: absolute;
-    inset: 0px;
-    box-sizing: border-box;
-    margin: 0px;
-}
-.logo{
-    color: #1658b3;
-    margin-left: 20px;
-    margin-top: 30px;
-    font-size: 30px;
-    font-family: 'BatonTurbo-Bold';
-}
 
 
 
@@ -815,6 +799,9 @@ nav{
 
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 07218d0fd5d36a256e7e377d7734c7b6b00747af
