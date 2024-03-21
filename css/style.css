@@ -325,7 +325,7 @@ abbr[title] {
     text-decoration: none !important;
 }
 body{
-    font-family: 'Poppins-Regular';
+    font-family: 'BatonTurbo-Regular';
     background-color: #1658b3;
 }
 .p_0{
@@ -628,6 +628,12 @@ nav{
 {
     padding: 50px 0px;
     border-top: 2px solid #82a2cd;
+    /* border-bottom: 2px solid #82a2cd; */
+    margin-top: -2px;
+}
+
+.bottom-border
+{
     border-bottom: 2px solid #82a2cd;
 }
 
@@ -660,6 +666,13 @@ nav{
     font-size: 48px;
 }
 
+.service-big-link:hover .post-name-txt h3
+{
+    color: #82a2cd;
+    font-family: 'BatonTurbo-Bold';
+    font-size: 48px;
+}
+
 .service-post-name-btn
 {
     display: flex;
@@ -678,7 +691,7 @@ nav{
     border-radius: 50%;
 }
 
-.service-btn:hover
+.service-big-link:hover .service-btn
 {
     background-color: #0D3C87;
 }
@@ -688,10 +701,30 @@ nav{
     color: #FDFDFD;
 }
 
+.service-big-link-cnt .row
+{
+    display: flex;
+    align-items: center;
+}
 
+.our-client
+{
+    background-color: #FDFDFD;
+}
 
+.client-float-txt
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
 
-
+.client-float-txt h3
+{
+    color: #1657b1;
+    font-size: 16px;
+}
 
 
 
