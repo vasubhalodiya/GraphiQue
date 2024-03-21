@@ -439,7 +439,24 @@ nav{
 
 .navbar a:hover
 {
-    color: white;
+    text-decoration: underline;
+}
+
+.navbar-second
+{
+    background-color: skyblue;
+}
+
+.navbar-second a
+{
+    color: #000;
+}
+
+.navbar-left
+{
+    display: flex;
+    justify-content: left;
+    background-color: #000;
 }
 
 /* ********************************************************************* */
@@ -650,9 +667,26 @@ nav{
     align-items: center;
 }
 
+.service-btn
+{
+    width: 35px;
+    height: 35px;
+    background-color: #1657b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
 
+.service-btn:hover
+{
+    background-color: #0D3C87;
+}
 
-
+.material-symbols-outlined
+{
+    color: #FDFDFD;
+}
 
 
 
