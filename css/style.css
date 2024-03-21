@@ -624,7 +624,17 @@ nav{
     letter-spacing: 2px;
 }
 
+.post-name-img img
+{
+    width: 50px;
+}
 
+.post-name-txt h
+{
+    color: #1658b3;
+    font-family: 'BatonTurbo-Bold';
+    font-size: 60px;
+}
 
 
 
