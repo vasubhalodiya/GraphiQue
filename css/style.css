@@ -611,6 +611,13 @@ nav{
 {
     padding: 50px 0px;
     border-top: 2px solid #82a2cd;
+    /* border-bottom: 2px solid #82a2cd; */
+    margin-top: -2px;
+}
+
+.service-big-link.bottom-border
+{
+    padding: 50px 0px;
     border-bottom: 2px solid #82a2cd;
     margin-top: -2px;
 }
@@ -631,9 +638,9 @@ nav{
     letter-spacing: 2px;
 }
 
-.service-big-link-cnt
+.service-big-link-cnt .row
 {
-    display: flex;
+    align-items: center;
 }
 
 .service-post-name
@@ -641,7 +648,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     gap: 30px;
 }
 
@@ -655,30 +661,43 @@ nav{
     color: #1658b3;
     font-family: 'BatonTurbo-Bold';
     font-size: 48px;
+    text-transform: uppercase;
+}
+
+.service-btn
+{
+    display: flex;
+    align-items: center;
+
+    background-color: #2769c6;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: auto 0;
+}
+
+.material-symbols-outlined
+{
+    margin: auto;
+    color: #fff;
 }
 
 .service-link:hover .post-name-txt h3
 {
     color: #82A3D0;
-    transition: 0.5s ease-out 100ms
+    transition: 0.5s ease-in 100ms;
 }
 
-.service-big-link-cnt
+.service-link:hover .service-btn
 {
-    display: flex;
-    gap: 400px;
+    background-color: #1658b3;
+    transition: 0.5s ease-out 100ms;
 }
 
-.service-big-link
+.service-post-name-btn
 {
     display: flex;
     justify-content: space-between;
-}
-
-.service-post-btn
-{
-    display: flex;
-    align-items: center;
 }
 
 
