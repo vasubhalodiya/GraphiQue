@@ -739,8 +739,16 @@ nav{
 
 .service-post-main
 {
-    max-width: 100vw;
-    height: 100px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.service-post-img{
+    box-sizing: border-box;
+    margin-bottom: 100px;
 }
 
 
