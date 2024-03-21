@@ -739,19 +739,12 @@ nav{
 
 .service-post-main
 {
-    display: block;
     overflow: hidden;
-    position: absolute;
     inset: 0px;
-    box-sizing: border-box;
-    margin: 0px;
-}
-.service-post-img{
-    box-sizing: border-box;
-    margin-bottom: 100px;
-}
 
-
+    position: absolute;
+    top: -290px;
+}
 
 
 
