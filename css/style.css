@@ -581,8 +581,8 @@ nav{
 
 .we-offer-main
 {
-    background-color: #FDFDFD;
-    padding: 200px 0px;
+    background-color: #f3f3f3;
+    padding: 100px 0px;
 }
 
 .we-offer
@@ -684,7 +684,7 @@ nav{
 {
     width: 35px;
     height: 35px;
-    background-color: #1657b1;
+    background-color: #1658b3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -698,7 +698,7 @@ nav{
 
 .material-symbols-outlined
 {
-    color: #FDFDFD;
+    color: #f3f3f3;
 }
 
 .service-big-link-cnt .row
@@ -709,7 +709,8 @@ nav{
 
 .our-client
 {
-    background-color: #FDFDFD;
+    background-color: #f3f3f3;
+    padding: 100px 0px;
 }
 
 .section-head
@@ -727,7 +728,7 @@ nav{
 
 .section-float-txt h3
 {
-    color: #1657b1;
+    color: #1658b3;
     font-size: 16px;
     font-family: 'BatonTurbo-Bold';
     margin-bottom: 10px;
@@ -764,6 +765,11 @@ nav{
     100% { transform: translateY(-3px); }
 }
 
+.client-content
+{
+    margin: auto 50px;
+}
+
 .client-head
 {
     margin-bottom: 30px;
@@ -779,7 +785,8 @@ nav{
 {
     width: 100%;
     height: 300px;
-    border: 1px solid #1657b1;
+    border: 1px solid #1658b3;
+    background-color: #fff;
     padding: 130px 100px;
     display: flex;
     justify-content: center;
@@ -791,11 +798,6 @@ nav{
     width: 130px;
 }
 
-.client-content
-{
-    margin: auto 50px;
-}
-
 .client-details a:hover .client-logo img
 {
     width: 110px;
@@ -803,15 +805,95 @@ nav{
     /* transform: scaleX(2px); */
 }
 
+.the-agency
+{
+    background-color: #f3f3f3;
+    /* padding: 70px 0px; */
+    padding: 0 100px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center
+}
 
+.the-agency-content h1
+{
+    color: #1658b3;
+    font-size: 120px;
+    font-family: 'BatonTurbo-Bold';
+}
 
+.the-agency-content img
+{
+    width: 130px;
+    -webkit-animation: float 1s infinite  alternate;
+    animation: float 1s infinite  alternate;
+}
 
+@-webkit-keyframes float {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-5px); }
+}
 
+.people-photo
+{
+    display: flex;
+    align-items: center;
+}
 
+.people-photo img
+{
+    animation: none;
+    width: 80px;
+    margin-left: 40px;
+    border-radius: 50px;
+    margin-top: -40px;
+    margin-right: 20px;
+}
 
+.people-photo-name
+{
+    width: 300px;
+    height: 60px;
+    border-left: 2px solid #1658b3;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
+.people-photo-name h5
+{
+    color: #1658b3;
+    font-size: 20px;
+    font-family: 'Grey-Bold';
+}
 
+.people-photo-name h5 span
+{
+    color: #1658b3;
+    font-size: 20px;
+    font-family: 'Grey-Regular';
+}
 
+.agency-txt-photo
+{
+    display: flex;
+    align-items: center;
+}
+
+.with-heart
+{
+    background-color: #1658b3;
+    padding: 10px 0px;
+}
+
+.with-heart-content h1
+{
+    color: #fff;
+    font-size: 70px;
+    font-family: 'BatonTurbo-Medium';
+    letter-spacing: 5px;
+}
 
 
 
