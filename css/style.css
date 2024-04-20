@@ -498,12 +498,12 @@ nav{
 
 @-webkit-keyframes float {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-4px); }
+    100% { transform: translateY(-3px); }
 }
 
 @keyframes float {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-4px); }
+    100% { transform: translateY(-3px); }
 }
 
 .about-head-txt h2
@@ -582,7 +582,7 @@ nav{
 .we-offer-main
 {
     background-color: #FDFDFD;
-    padding: 100px 0px;
+    padding: 200px 0px;
 }
 
 .we-offer
@@ -603,7 +603,7 @@ nav{
     color: #1658b3;
     font-family: 'BatonTurbo-Medium';
     font-size: 17px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 .we-heading
@@ -712,7 +712,12 @@ nav{
     background-color: #FDFDFD;
 }
 
-.client-float-txt
+.section-head
+{
+    padding-bottom: 30px;
+}
+
+.section-float-txt
 {
     display: flex;
     justify-content: center;
@@ -720,15 +725,83 @@ nav{
     letter-spacing: 2px;
 }
 
-.client-float-txt h3
+.section-float-txt h3
 {
     color: #1657b1;
     font-size: 16px;
+    font-family: 'BatonTurbo-Bold';
+    margin-bottom: 10px;
 }
 
+.section-head-txt h2
+{
+    width: 100%;
+    color: #1658b3;
+    font-family: 'BatonTurbo-Bold';
+    font-size: 60px;
+    text-align: center;
+}
 
+.section-float-delay {
+    -webkit-animation: float 1.5s infinite  alternate;
+    animation: float 1.5s infinite  alternate;
+    rotate: -10deg;
+}
 
+.section-float {
+    -webkit-animation: float 1.3s infinite  alternate;
+    animation: float 1.3s infinite  alternate;
+    rotate: -10deg;
+}
 
+@-webkit-keyframes float {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-3px); }
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-3px); }
+}
+
+.client-head
+{
+    margin-bottom: 30px;
+}
+
+.client-details .col-lg-3
+{
+    padding: 0;
+    margin-left: -1px;
+}
+
+.client-logo
+{
+    width: 100%;
+    height: 300px;
+    border: 1px solid #1657b1;
+    padding: 130px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-logo img
+{
+    width: 130px;
+}
+
+.client-content
+{
+    margin: auto 50px;
+}
+
+.client-details a:hover .client-logo img
+{
+    width: 110px;
+    transition: .2s;
+    /* transform: scaleX(2px); */
+}
 
 
 
