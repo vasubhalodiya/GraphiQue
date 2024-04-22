@@ -21,11 +21,12 @@
             <div class="nav">
                 <div class="navbar">
                     <div class="logo">
-                        <h1>logo</h1>
+                        <img src="images/logo.png" alt="">
+                        <h6>Social Media Marketing</h6>
                     </div>
                     <div class="navbar-links">
                         <div class="navbar-links-cnt">
-                            <div class="navbar-display">
+                            <div class="navbar-display active">
                                 <div class="navbar-contact">
                                     <a href="#">Contact</a>
                                 </div>
@@ -34,12 +35,29 @@
                                 </div>
                             </div>
                             <div class="navbar-sidebar">
-                                <div class="navbar-close active">
-                                    <a href="javascript:;">close</a>
-                                </div>
                                 <div class="navbar-head">
-                                    <h3>ENQUIRE NOW</h3>
-                                    <p>Please fill out the sidebar below and our interior designers will get back to you as soon as possible!</p>
+                                    <div class="navbar-sidebar-logo">
+                                        <img src="images/logo.png" alt="">
+                                    </div>
+                                    <div class="navbar-head-sec">
+                                        <div class="navbar-contact">
+                                            <a href="#">Contact</a>
+                                        </div>
+                                        <div class="navbar-close">
+                                            <a href="javascript:;">close</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="navbar-menu">
+                                    <div class="navbar-menu-list active">
+                                        <a href="#"><h4>01</h4><h3>Home</h3></a>
+                                    </div>
+                                    <div class="navbar-menu-list">
+                                        <a href="#"><h4>02</h4><h3>Service</h3></a>
+                                    </div>
+                                    <div class="navbar-menu-list">
+                                        <a href="#"><h4>03</h4><h3>Contact</h3></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -503,7 +521,7 @@
             document.querySelector('.navigation').classList.toggle('active')
         }
     </script>
-    
+
     <script>
         const tabs = document.querySelectorAll('.open-menu,.navbar-close');
         const allctn = document.querySelectorAll('.navbar-sidebar');
@@ -518,6 +536,18 @@
         })
     </script>
 
+<script>
+    const menus = document.querySelectorAll(".navbar-menu-list");
+
+        tabs.forEach((tab, index) => {
+            tab.addEventListener("click", () => {
+                menus.forEach((tab) => {
+                    tab.classList.remove("active");
+                });
+                tab.classList.add("active");
+            });
+        });
+    </script>
 
     </body>
 </html>
