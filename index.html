@@ -18,29 +18,33 @@
     </head>
     <body>
         <div class="main" id="main-site">
-              
-            <!-- <div class="navigation">
-                <button class="hamburger" onclick="show()">
-                    <div id="bar1" class="bar"></div>
-                    <div id="bar2" class="bar"></div>
-                    <div id="bar3" class="bar"></div>
-                </button>
-                <div class="nav-menu">
-                    <nav>
-                        <ul>
-                            <li><a>Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Blog</a></li>
-                            <li><a>Contact</a></li>
-                        </ul>
-                    </nav>
+            <div class="nav">
+                <div class="navbar">
+                    <div class="logo">
+                        <h1>logo</h1>
+                    </div>
+                    <div class="navbar-links">
+                        <div class="navbar-links-cnt">
+                            <div class="navbar-display">
+                                <div class="navbar-contact">
+                                    <a href="#">Contact</a>
+                                </div>
+                                <div class="navbar-menu-btn">
+                                    <a href="javascript:;" class="open-menu"><h3>Menu</h3></a>
+                                </div>
+                            </div>
+                            <div class="navbar-sidebar">
+                                <div class="navbar-close active">
+                                    <a href="javascript:;">close</a>
+                                </div>
+                                <div class="navbar-head">
+                                    <h3>ENQUIRE NOW</h3>
+                                    <p>Please fill out the sidebar below and our interior designers will get back to you as soon as possible!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div> -->
-
-            <div class="navbar">
-                <a href="index.html">Home</a>
-                <a href="service.html">Service</a>
-                <a href="#">Contact</a>
             </div>
 
             <div class="about-heading-main">
@@ -433,6 +437,45 @@
                 </div>
             </div>
 
+            <div class="instagram-section">
+                <div class="instagram-section-main">
+                    <div class="insta-img-one">
+                        <img src="images/insta img 1.jpg" alt="">
+                    </div>
+                    <div class="insta-img-two">
+                        <img src="images/insta img 2.jpg" alt="">
+                    </div>
+                    <div class="insta-head">
+                        <div class="insta-float-txt">
+                            <div class="letter-float-delay"><h3>I</h3></div>
+                            <div class="letter-float"><h3>N</h3></div>
+                            <div class="letter-float-delay"><h3>S</h3></div>
+                            <div class="letter-float"><h3>T</h3></div>
+                            <div class="letter-float-delay"><h3>A</h3></div>
+                            <div class="letter-float"><h3>G</h3></div>
+                            <div class="letter-float-delay"><h3>R</h3></div>
+                            <div class="letter-float"><h3>A</h3></div>
+                            <div class="letter-float-delay"><h3>M</h3></div>
+                        </div> 
+                        <div class="insta-head-txt">
+                            <h2>SOAK UP THE LATEST</h2>
+                        </div>
+                        <div class="insta-btn">
+                            <a href="#">@weswwim</a>
+                        </div>
+                    </div>
+                    <div class="insta-img-three">
+                        <img src="images/insta img 3.jpg" alt="">
+                    </div>
+                    <div class="insta-dive-in">
+                        <img src="images/dive-in.svg" alt="">
+                    </div>
+                    <div class="insta-img-four">
+                        <img src="images/insta img 4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
         </div>
 <!-- *********************************************************************** -->
     <script src="js/jquery.min.js"></script>
@@ -459,6 +502,20 @@
             document.querySelector('.hamburger').classList.toggle('open')
             document.querySelector('.navigation').classList.toggle('active')
         }
+    </script>
+    
+    <script>
+        const tabs = document.querySelectorAll('.open-menu,.navbar-close');
+        const allctn = document.querySelectorAll('.navbar-sidebar');
+
+        tabs.forEach((tab, index) => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(tab => { tab.classList.remove('active') })
+                tab.classList.add('active')
+                allctn.forEach(content => { content.classList.remove('active') })
+                allctn[index].classList.add('active');
+            })
+        })
     </script>
 
 

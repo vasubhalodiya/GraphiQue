@@ -221,7 +221,7 @@
 
 /* Custome Fonts */
 
-    /* Turbo-Regular */
+/* Turbo-Regular */
 @font-face {
     font-family: 'BatonTurbo-Regular';
     src: url(../css/fonts/Baton-Turbo/Baton-Turbo-Regular.otf);
@@ -247,7 +247,7 @@
     src: url(../css/fonts/Baton-Turbo/Baton-Turbo-Heavy.otf);
 }
 
-    /* Greycliff-CF */
+/* Greycliff-CF */
 @font-face {
     font-family: 'Grey-Bold';
     src: url(../css/fonts/Greycliff-CF/Greycliffcf-Bold.ttf);
@@ -336,6 +336,7 @@ body{
 }
 .main{
     width: 100%;
+    overflow: hidden;
 }
 .container{
     width: 100%;
@@ -344,121 +345,87 @@ body{
 }
 
 /* ************************************************************************************* */
-
-/* a,button{
-    cursor: pointer;
-}
-
-nav{
-    position: absolute;
-    top: 100px;
-    right: 50px;
-    width: 250px;
-}
-
-.navigation{
-    position: fixed;
-    right: -500px;
-    width: 350px;
-    height: 100%;
-    background-color: #000;
-    transition: .5s;
-}
-
-.navigation ul li{
-    color: #fff;
-    text-align: right;
-    text-transform: uppercase;
-    list-style-type: none;
-    font-size: 1.5em;
-    padding: 20px 30px;
-    border-bottom: 1pt solid #252525;
-}
-
-.hamburger, .bar{
-    position: fixed;
-}
-
-.hamburger{
-    display: block;
-    top: 5%;
-    left: 95%;
-    width: 30px;
-    height: 30px;
-    transform: translateY(-50%);
-    border: 0;
-    background: 0 0;
-}
-
-.bar{
-    top: 3px;
-    background: #000;
-    width: 100%;
-    height: 4px;
-    transition: all .3s ease-in;
-}
-
-#bar2{
-    top: 11px;
-}
-
-#bar3{
-    top: 19px;
-}
-
-.navigation.active{
-    right: 0;
-}
-
-.hamburger.open #bar1{
-    background-color: #fff;
-    transform: rotate(45deg) translate(6px, 5px);
-}
-
-.hamburger.open #bar2{
-    background-color: transparent;
-}
-
-.hamburger.open #bar3{
-    background-color: #fff;
-    transform: rotate(-45deg) translate(6px, -5px);
-} */
-
-.navbar
-{
+.navbar {
+    background-color: #00b5bd;
+    padding: 30px 70px;
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    background-color: #0D1117;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.navbar a
-{
-    color: white;
-}
-
-.navbar a:hover
-{
-    text-decoration: underline;
-}
-
-.navbar-second
-{
-    background-color: skyblue;
-}
-
-.navbar-second a
+.navbar-contact a
 {
     color: #000;
+    background-color: #fff;
+    font-size: 25px;
+    padding: 10px 30px;
+    border-radius: 50px;
 }
 
-.navbar-left
+.navbar-menu-btn h3
+{
+    color: #000;
+    font-size: 30px;
+}
+
+.navbar-display
 {
     display: flex;
-    justify-content: left;
-    background-color: #000;
+    align-items: center;
+    gap: 30px;
 }
 
+.navbar-display a {
+    text-decoration: none;
+    
+}
+
+.navbar-sidebar {
+    width: 320px;
+    position: fixed;
+    top: 0;
+    right: -100% !important;
+    z-index: 99999999999;
+    background-color: #fff;
+    padding: 0;
+    height: 100vh;
+    transition: linear 0.2s;
+    border: 2px solid #00b5bd;
+    padding: 15px;
+    -webkit-animation: bck-clr-animation 2s ease infinite;
+    -moz-animation: bck-clr-animation 2s ease infinite;
+    animation: bck-clr-animation 2s ease infinite;
+    overflow-y: auto
+}
+
+.navbar-sidebar.active {
+    right: -0% !important
+}
+
+.navbar-head h3 {
+    font-size: 22px;
+    color: #00b5bd;
+    font-family: 'OpenSans-semiBold';
+    margin-bottom: 10px
+}
+
+.navbar-head p {
+    font-size: 14px;
+    color: #000;
+    font-family: 'OpenSans-semiBold';
+    margin-bottom: 15px
+}
+
+.navbar-close i {
+    color: #00b5bd;
+    text-align: end;
+    margin-bottom: 0;
+    font-size: 22px
+}
+
+.navbar-close {
+    text-align: end
+}
 /* ********************************************************************* */
 
 .about-heading-main
@@ -466,6 +433,7 @@ nav{
     width: 100%;
     text-align: center;
     padding: 100px 0px;
+    padding-top: 180px;
 }
 
 .about-head h3
@@ -895,9 +863,143 @@ nav{
     letter-spacing: 5px;
 }
 
+.instagram-section
+{
+    padding: 380px 0px;
+    background-color: #f3f3f3;
+}
 
+.instagram-section-main
+{
+    background-color: #f3f3f3;
+}
 
+.insta-head h3
+{
+    color: #1658b3;
+    font-size: 26px;
+    font-family: 'BatonTurbo-Bold';
+    margin-bottom: 25px;
+}
 
+.insta-float-txt
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.letter-float-delay {
+    -webkit-animation: float 1.5s infinite  alternate;
+    animation: float 1.5s infinite  alternate;
+    rotate: -10deg;
+}
+
+.letter-float {
+    -webkit-animation: float 1.3s infinite  alternate;
+    animation: float 1.3s infinite  alternate;
+    rotate: -10deg;
+}
+
+@-webkit-keyframes float {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-3px); }
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-3px); }
+}
+
+.insta-head-txt h2
+{
+    width: 100%;
+    margin: 0 auto;
+    color: #1658b3;
+    font-size: 70px;
+    font-family: 'BatonTurbo-Bold';
+    letter-spacing: 1px;
+    line-height: 80px;
+    text-align: center;
+
+    position: relative;
+}
+
+.insta-btn
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.insta-btn a
+{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'BatonTurbo-Bold';
+    background-color: #1658b3;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+.instagram-section-main
+{
+    position: relative;
+}
+
+.insta-img-one img
+{
+    /* width: 300px; */
+    width: 18%;
+    border: 2px solid #1658b3;
+
+    position: absolute;
+    top: -280px;
+    left: 50px;
+}
+
+.insta-img-two img
+{
+    /* width: 220px; */
+    width: 13%;
+    border: 2px solid #1658b3;
+
+    position: absolute;
+    top: -290px;
+    right: 250px;
+}
+.insta-img-three img
+{
+    /* width: 180px; */
+    width: 11%;
+    border: 2px solid #1658b3;
+
+    position: absolute;
+    bottom: -270px;
+    left: 250px;
+}
+
+.insta-img-four img
+{
+    width: 300px;
+    /* width: 18%; */
+    border: 2px solid #1658b3;
+
+    position: absolute;
+    bottom: -290px;
+    right: 50px;
+}
+
+.insta-dive-in img
+{
+    width: 100px;
+    /* width: 18%; */
+
+    position: absolute;
+    bottom: -290px;
+    right: 250px;
+}
 
 
 
