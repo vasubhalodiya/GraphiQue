@@ -1096,12 +1096,12 @@ body{
 
 .insta-dive-in img
 {
-    width: 100px;
+    width: 150px;
     /* width: 18%; */
 
     position: absolute;
-    bottom: -290px;
-    right: 250px;
+    bottom: -100px;
+    right: 580px;
 }
 
 
