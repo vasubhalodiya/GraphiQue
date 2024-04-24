@@ -347,7 +347,8 @@ ul {
 }
 .container{
     width: 100%;
-    max-width: 1170px;
+    /* max-width: 1170px; */
+    max-width: 95%;
     margin: 0px auto;
 }
 
@@ -1268,12 +1269,6 @@ ul {
     padding-right: 50px;
 }
 
-
-
-
-
-
-
 /* *************************************** SERVICE *******************************************************/
 
 .background-color
@@ -1285,14 +1280,16 @@ ul {
 {
     width: 100%;
     text-align: center;
-    padding: 100px 0px;
+    /* padding: 100px 0px; */
+    padding-top: 250px;
+    padding-bottom: 150px;
 }
 
 .service-head h3
 {
     color: #1658b3;
-    font-size: 25px;
-    font-family: 'BatonTurbo-Medium';
+    font-size: 30px;
+    font-family: 'BatonTurbo-Bold';
     margin-bottom: 30px;
 }
 
@@ -1339,40 +1336,209 @@ ul {
     position: relative;
 }
 
-/*****************************************SERVICE_PAGE_1**********************************************/
+/* ******************************************************* */
 
-.service-post-main
+.service-card-dtl
 {
-    overflow: hidden;
-    inset: 0px;
-
-    position: absolute;
-    top: -290px;
+    border-top: 1px solid #1658b3;
+    padding: 50px 30px;
+    /* padding-bottom: 60px; */
 }
 
+.bottom-border
+{
+    border-bottom: 1px solid #1658b3;
+    padding-bottom: 50px;
+}
 
+.service-main-content
+{
+    padding-bottom: 100px;
+}
 
+.service-card-txt h2
+{
+    color: transparent;
+    font-size: 36px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #1658b3;
+    font-family: 'Grey-Bold';
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
 
+.service-card-txt h1
+{
+    max-width: 350px;
+    color: #1658b3;
+    font-size: 50px;
+    font-family: 'BatonTurbo-Bold';
+    margin-bottom: 30px;
+}
 
+.service-card-txt p
+{
+    max-width: 80%;
+    color: #1658b3;
+    font-size: 18px;
+    font-family: 'Grey-Regular';
+    line-height: 30px;
+}
 
+.service-card-cnt
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 
+.service-card-img
+{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
 
+    position: relative;
+}
 
+.service-card-img img
+{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s all ease-in-out;
+}
 
+.service-card-view-btn h4
+{
+    color: #fff;
+    background-color: #1658b3;
+    font-size: 20px;
+    font-family: 'BatonTurbo-Medium';
+    padding: 35px 25px;
+    border-radius: 50%;
+    transition: transform 0.4s ease-in-out;
+    z-index: 999;
 
+    position: absolute;
+    bottom: 120px;
+    left: -10px;
 
+    display: none;
+}
 
+.service-card a:hover .service-card-view-btn h4
+{
+    display: block;
+    transform: scale(1.2);
+    z-index: 999;
+}
 
+.service-card a:hover .service-card-img img
+{
+    transform: scale(1.1);
+}
 
+.grow-business
+{
+    background-color: #f3f3f3;
+    /* padding: 70px 0px; */
+    padding: 0 100px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center
+}
 
+.grow-business-content h1
+{
+    color: #1658b3;
+    font-size: 120px;
+    font-family: 'BatonTurbo-Bold';
+}
 
+.camera
+{
+    width: 130px;
+    -webkit-animation: float 1s infinite  alternate;
+    animation: float 1s infinite  alternate;
+}
 
+.case-img
+{
+    width: 500px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: -20px;
+}
 
+.case-woman
+{
+    width: 450px;
+}
 
+.case-last
+{
+    display: flex;
+    align-items: end;
+    margin-top: -70px;
+}
 
+.case-last a
+{
+    color: #fff;
+    background-color: #1658b3;
+    font-size: 30px;
+    font-family: 'Grey-Bold';
+    padding: 30px 100px;
+    margin-left: 70px;
+    border-radius: 100px;
+    margin-bottom: 15px;
+}
 
+.the-latest-content
+{
+    background-color: #0E61E0;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.the-latest-content h3
+{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Grey-Bold';
+}
 
+.latest-link
+{
+    display: flex;
+    align-items: center;
+}
+
+.latest-link a
+{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Grey-Regular';
+    margin-right: 20px;
+}
+
+.latest-logo
+{
+    width: 100px;
+    height: 100px;
+    background-color: #0D3C87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-logo img
+{
+    width: 70px;
+}
 
 
 
