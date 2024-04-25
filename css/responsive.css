@@ -4,7 +4,7 @@
 
 @media screen and (min-width:1025px) and (max-width:1240px){
     .duck-img-footer img{display: none;}
-    .navbar{display: none;}
+    /* .navbar{display: none;} */
     
 
     .about-head-txt h2{width: 750px;font-size: 60px;line-height: 60px;}
@@ -37,7 +37,7 @@
 
 @media screen and (min-width:992px) and (max-width:1024px){
 	.duck-img-footer img{display: none;}
-    .navbar{display: none;}
+    /* .navbar{display: none;} */
 
 
     .about-heading-main .container{max-width: 85%;}
@@ -74,7 +74,7 @@
 
 @media screen and (min-width:768px) and (max-width:991px){
 	.duck-img-footer img{display: none;}
-    .navbar{display: none;}
+    /* .navbar{display: none;} */
 
 
     .about-heading-main .container{max-width: 85%;}
@@ -122,7 +122,7 @@
 }
 @media (max-width: 767px){
 	.duck-img-footer img{display: none;}
-    .navbar{display: none;}
+    /* .navbar{display: none;} */
 
     .about-heading-main .container{max-width: 90%;}
     .about-head h3{font-size: 20px;margin-bottom: 15px;}
