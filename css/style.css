@@ -760,8 +760,9 @@ ul {
     align-items: center;
 }
 
-.service-btn
+.service-arrow-btn
 {
+    color: #fff;
     width: 35px;
     height: 35px;
     background-color: #1658b3;
@@ -771,7 +772,7 @@ ul {
     border-radius: 50%;
 }
 
-.service-big-link:hover .service-btn
+.service-big-link:hover .service-arrow-btn
 {
     background-color: #0D3C87;
 }
