@@ -3,19 +3,124 @@
 }
 
 @media screen and (min-width:1025px) and (max-width:1240px){
-	
+    .duck-img-footer img{display: none;}
+    .navbar{display: none;}
+    
+
+    .about-head-txt h2{width: 750px;font-size: 60px;line-height: 60px;}
+    .about-cnt-big-txt h3{font-size: 33px;}
+    .we-offer{margin: 0px 30px;}
+    .post-name-txt h3{font-size: 36px;}
+    .service-big-link:hover .post-name-txt h3{font-size: 36px;}
+    .post-name-img img{width: 45px;}
+    .agency-txt-photo{flex-wrap: wrap;}
+    .the-agency-content img{width: 85px;}
+    .the-agency-content h1{font-size: 80px;}
+    .people-photo img{width: 70px;margin-left: 0px;margin-top: -25px;}
+    .with-heart-content h1{font-size: 65px;}
+
+    .insta-img-one img{top: -210px}
+    .insta-img-two img{width: 15%;right: 220px;top: -220px;}
+    .insta-img-three img{width: 13%; bottom: -250px; left: 235px;}
+    .insta-img-four img{bottom: -270px; right: 75px;}
+
+    .insta-head h3{font-size: 22px;margin-bottom: 10px;}
+    .insta-head-txt h2{font-size: 50px;}
+    .insta-btn{margin-top: 15px;}
+    .insta-dive-in img{right: 380px;}
+    .instagram-section{padding: 300px 0px;}
+    .insta-camera img{width: 115px;}
+    .insta-circle-image img{width: 320px;top: 195px;}
+    .footer-content{padding: 180px 0px;padding-bottom: 70px;}
+
 }
 
 @media screen and (min-width:992px) and (max-width:1024px){
-	
+	.duck-img-footer img{display: none;}
+    .navbar{display: none;}
+
+
+    .about-heading-main .container{max-width: 85%;}
+    .about-head h3{font-size: 25px;margin-bottom: 15px;}
+    .about-head-txt h2{width: 100%;font-size: 63px;line-height: 70px;}
+    .about-cnt-big-txt h3{font-size: 29px;line-height: 40px;}
+    .we-head-big h3{font-size: 55px;}
+    .post-name-txt h3{font-size: 36px;}
+    .service-big-link:hover .post-name-txt h3{font-size: 36px;}
+    .section-head-txt h2{font-size: 48px;}
+    .agency-txt-photo{flex-wrap: wrap;}
+    .the-agency-content img{width: 85px;}
+    .the-agency-content h1{font-size: 77px;}
+    .people-photo img{width: 70px;margin-left: 0px;margin-top: -25px;}
+    .with-heart-content h1{font-size: 65px;}
+
+
+
+
+
+
+
+
+
+
 }
 
 @media screen and (min-width:768px) and (max-width:991px){
-	
+	.duck-img-footer img{display: none;}
+    .navbar{display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 }
 @media (max-width: 767px){
-	
+	.duck-img-footer img{display: none;}
+    .navbar{display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
   
 }
 

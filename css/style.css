@@ -743,6 +743,7 @@ ul {
     color: #1658b3;
     font-family: 'BatonTurbo-Bold';
     font-size: 48px;
+    text-transform: uppercase;
 }
 
 .service-big-link:hover .post-name-txt h3
@@ -1093,8 +1094,8 @@ ul {
 
 .insta-img-four img
 {
-    width: 300px;
-    /* width: 18%; */
+    /* width: 300px; */
+    width: 18%;
     border: 2px solid #1658b3;
 
     position: absolute;
