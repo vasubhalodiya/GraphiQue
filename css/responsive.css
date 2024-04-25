@@ -6,7 +6,7 @@
     .duck-img-footer img{display: none;}
     /* .navbar{display: none;} */
     
-
+    .navbar{padding: 20px 50px;}
     .about-head-txt h2{width: 750px;font-size: 60px;line-height: 60px;}
     .about-cnt-big-txt h3{font-size: 33px;}
     .we-offer{margin: 0px 30px;}
@@ -39,7 +39,7 @@
 	.duck-img-footer img{display: none;}
     /* .navbar{display: none;} */
 
-
+    .navbar{padding: 20px 50px;}
     .about-heading-main .container{max-width: 85%;}
     .about-head h3{font-size: 25px;margin-bottom: 15px;}
     .about-head-txt h2{width: 100%;font-size: 63px;line-height: 70px;}
@@ -76,7 +76,7 @@
 	.duck-img-footer img{display: none;}
     /* .navbar{display: none;} */
 
-
+    .navbar{padding: 20px 50px;}
     .about-heading-main .container{max-width: 85%;}
     .about-head h3{font-size: 25px;margin-bottom: 15px;}
     .about-head-txt h2{width: 100%;font-size: 49px;line-height: 60px;}
@@ -124,6 +124,13 @@
 	.duck-img-footer img{display: none;}
     /* .navbar{display: none;} */
 
+    .navbar{padding: 20px 40px;}
+    .logo h6{display: none;}
+    .logo img{border: none;}
+    .navbar-contact a{display: none;}
+    .navbar-sidebar{width: 90%;}
+    .navbar-sidebar.active{padding: 20px 50px;}
+    .navbar-head-sec{padding: 0;}
     .about-heading-main .container{max-width: 90%;}
     .about-head h3{font-size: 20px;margin-bottom: 15px;}
     .about-head-txt h2{width: 100%;font-size: 53px;line-height: 60px;}
@@ -148,6 +155,7 @@
     .we-heading{margin-bottom: 30px;}
     .service-big-link:hover .post-name-txt h3{font-size: 21px;}
     .section-head-txt h2{font-size: 48px;}
+    .client-details{grid-template-columns: 1fr 1fr;}
     .agency-txt-photo{flex-wrap: wrap;}
     .the-agency{padding: 0px 30px;padding-bottom: 70px;}
     .the-agency-content img{display: none;}
@@ -204,12 +212,24 @@
     .section-head-txt h2{font-size: 30px;}
     .the-agency-content h1{font-size: 53px;}
     .post-name-img img{width: 25px;}
+    .client-details{grid-template-columns: 1fr 1fr;}
+    .client-logo{height: 200px;}
+    .client-logo-cnt img{width: 80px;}
 	
 }
 
 
 @media screen and (max-width:480px){
 
+    .navbar{padding: 20px 30px;}
+    .navbar-sidebar{width: 100%;}
+    .navbar-sidebar.active{padding: 20px 30px;}
+    .navbar-head-sec{padding: 0;}
+    .navbar-sidebar-logo img{width: 100px;}
+    .navbar-menu-list h3, .navbar-menu-list.active h3{font-size: 35px;}
+    .navbar-menu-list h4{font-size: 30px;}
+    .navbar-menu-list{margin-bottom: 25px;}
+    .logo img{width: 100px; padding: 0;margin: 0;}
     .about-head-txt h2{width: 100%;font-size: 29px;line-height: 35px;}
     .about-head h3{font-size: 20px;margin-bottom: 15px;}
     .post-name-txt h3{max-width: 260px; font-size: 18px;}
@@ -227,7 +247,7 @@
     .the-agency{padding: 0px 30px;padding-bottom: 70px;justify-content: normal;}
     .people-photo-name{height: 45px; padding-left: 10px;margin-left: 10px;}
     .with-heart-content h1{font-size: 33px;}
-    .client-content{margin: auto 20px;}
+    .client-content{margin: auto 0px;}
     .client-details{margin: auto 20px;}
 
     .insta-img-one img{width: 23%; top: -115px; left: 30px;}
@@ -248,6 +268,9 @@
     .copyright-graphique{gap: 4px;margin-bottom: 5px;}
     .graphique-service h6{line-height: 21px;}
     .copyright-graphique h6, a{font-size: 14px;}
+    .client-details{grid-template-columns: 1fr 1fr;}
+    .client-logo{height: 160px;}
+    .client-logo-cnt img{width: 60px;}
 }
 
 

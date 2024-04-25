@@ -425,7 +425,7 @@ ul {
     top: 0;
     right: -100% !important;
     z-index: 99999999999;
-    background-color: #3e3e3e;
+    background-color: #1A4487;
     padding: 0;
     height: 100vh;
     transition: linear 0.4s;
@@ -863,21 +863,46 @@ ul {
     margin-left: -1px;
 }
 
+.client-details
+{
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: -10px;
+}
+
 .client-logo
 {
-    width: 100%;
+    width: auto;
+    /* width: 100%; */
     height: 300px;
     border: 1px solid #1658b3;
     background-color: #fff;
-    padding: 130px 100px;
+    /* padding: 130px 100px; */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -1px;
+    margin-bottom: -1px;
+    cursor: pointer;
+
 }
 
-.client-logo img
+.client-logo-cnt
 {
-    width: 130px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.client-logo-cnt img
+{
+    width: 110px;
+    /* height: 100%;
+    padding: 110px; */
+}
+
+.client-logo .client-logo-cnt:hover
+{
+    transform: scale(1.2);
 }
 
 .client-details a:hover .client-logo img
