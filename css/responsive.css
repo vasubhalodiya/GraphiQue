@@ -82,49 +82,41 @@
     .about-head-txt h2{width: 100%;font-size: 49px;line-height: 60px;}
     .about-cnt-big-txt h3{font-size: 22px;line-height: 30px;}
     .about-part-cnt{margin-bottom: 30px;}
+    .our-client{padding: 80px 0px;}
     .we-head-big h3{font-size: 55px;}
     .post-name-txt h3{max-width: 330px; font-size: 30px;}
     .service-big-link:hover .post-name-txt h3{font-size: 36px;}
     .section-head-txt h2{font-size: 48px;}
     .agency-txt-photo{flex-wrap: wrap;}
-    .the-agency-content img{width: 85px;}
-    .the-agency-content h1{font-size: 77px;}
-    .people-photo img{width: 70px;margin-left: 0px;margin-top: -25px;}
-    .with-heart-content h1{font-size: 65px;}
+    .the-agency{padding: 0px 75px;padding-bottom: 70px;}
+    .the-agency-content img{width: 70px;}
+    .the-agency-content h1{font-size: 59px;}
+    .people-photo img{width: 65px;margin-left: 0px;margin-top: -25px;}
+    .with-heart-content h1{font-size: 55px;}
+    .people-photo{margin-top: 15px;}
+    .people-photo-name h5, .people-photo-name h5 span{font-size: 18px;}
 
-    .insta-img-one img{top: -210px}
-    .insta-img-two img{width: 15%;right: 200px;top: -220px;}
-    .insta-img-three img{width: 13%; bottom: -250px; left: 235px;}
-    .insta-img-four img{bottom: -270px; right: 75px;}
+    .insta-img-one img{width: 19%; top: -190px}
+    .insta-img-two img{width: 16%;right: 130px;top: -170px;}
+    .insta-img-three img{width: 14%; bottom: -260px; left: 160px;}
+    .insta-img-four img{width: 21%;bottom: -240px; right: 65px;}
 
     .insta-head h3{font-size: 22px;margin-bottom: 10px;}
     .insta-head-txt h2{font-size: 50px;}
     .insta-btn{margin-top: 15px;}
-    .insta-dive-in img{right: 380px;}
-    .instagram-section{padding: 300px 0px; padding-bottom: 350px;}
+    .insta-dive-in img{right: 260px; bottom: -80px;}
+    .instagram-section{padding: 230px 0px; padding-bottom: 300px;}
     .insta-camera img{display: none;}
-    .insta-circle-image img{width: 300px;left: -170px;}
-    .footer-content{padding: 180px 0px;padding-bottom: 70px;}
-    .footer-main h3{width: 220px;}
+    .insta-circle-image img{width: 230px;left: -140px;top: 250px;}
+    .footer-content{padding: 140px 0px;padding-bottom: 50px;}
+    .footer-main h3{width: 100%;}
     .footer-main h4{font-size: 30px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .footer-logo img{margin-bottom: 30px;}
+    .footer-section{margin-bottom: 40px;}
+    .copyright-graphique{gap: 18px;}
+    .copyright-img img{width: 85%;padding-right: 0;}
+    footer{padding: 0px 40px;}
+    .copyright-img{margin-right: -50px;}
 
 	
 }
@@ -132,43 +124,105 @@
 	.duck-img-footer img{display: none;}
     .navbar{display: none;}
 
+    .about-heading-main .container{max-width: 90%;}
+    .about-head h3{font-size: 20px;margin-bottom: 15px;}
+    .about-head-txt h2{width: 100%;font-size: 53px;line-height: 60px;}
+    .about-cnt-big-txt h3{font-size: 21px;line-height: 27px;}
+    .about-cnt-underline marquee{padding: 20px 0px;}
+    .about-content{margin: 0px 10px;}
+    .about-part-cnt h4{font-size: 20px;}
+    .about-part-cnt{margin-bottom: 30px;}
+    .our-client{padding: 50px 0px;}
+    .we-head-big h3{font-size: 37px;}
+    .service-big-link{padding: 25px 0px;}
+    .service-post-name-btn{margin-left: 20px;}
+    .service-post-name{gap: 15px;}
+    .service-btn{width: 30px;height: 30px;}
+    .service-btn .material-symbols-outlined{font-size: 20px;}
+    .post-name-img img{width: 30px;}
+    .we-float-txt h3{font-size: 17px;}
+    .service-post-number h4{font-size: 25px;}
+    .post-name-txt h3{max-width: 100%; font-size: 21px;}
+    .we-offer-main{padding: 70px 0px;}
+    .we-offer{margin: 0px 20px;}
+    .we-heading{margin-bottom: 30px;}
+    .service-big-link:hover .post-name-txt h3{font-size: 36px;}
+    .section-head-txt h2{font-size: 48px;}
+    .agency-txt-photo{flex-wrap: wrap;}
+    .the-agency{padding: 0px 30px;padding-bottom: 70px;}
+    .the-agency-content img{display: none;}
+    .the-agency-content h1{font-size: 65px;}
+    .people-photo img{width: 50px;margin-left: 0px;margin-top: 0px; margin-right: 10px; display: block;}
+    .people-photo-name{height: 45px;}
+    .with-heart-content h1{font-size: 55px;}
+    .people-photo{margin-top: 15px;}
+    .people-photo-name h5, .people-photo-name h5 span{font-size: 16px;}
+    .people-photo-name h5{width: 100%;}
 
+    .insta-img-one img{width: 23%; top: -135px; left: 30px;}
+    .insta-img-two img{width: 19%;right: 85px;top: -130px;}
+    .insta-img-three img{width: 17%; bottom: -200px; left: 120px;}
+    .insta-img-four img{width: 23%;bottom: -190px; right: 40px;}
 
+    .insta-head h3{font-size: 18px;margin-bottom: 0px;}
+    .insta-head-txt h2{font-size: 40px;letter-spacing: 0px;}
+    .insta-btn{margin-top: 0px;}
+    .insta-btn a{font-size: 18px;padding: 12px 25px;}
+    .insta-dive-in img{width: 125px; right: 180px; bottom: -65px;}
+    .instagram-section{padding: 190px 0px; padding-bottom: 300px;}
+    .insta-camera img{display: block;width: 70px;bottom: -180px;left: -45px;}
+    .insta-circle-image img{width: 200px;left: -110px;top: 200px;}
+    .footer-content{padding: 120px 0px;padding-bottom: 50px;}
+    .footer-main h3{width: 100%;font-size: 34px;}
+    .footer-main h4{font-size: 28px;}
+    .footer-logo img{margin-bottom: 30px;}
+    .footer-section{margin-bottom: 40px;}
+    .copyright-graphique{gap: 0px;margin-bottom: 10px;}
+    .copyright-img img{width: 85%;padding-right: 0;}
+    .footer{padding: 0px 30px;}
+    .copyright-img{margin-right: -50px;}
+    .copyright-graphique h6{width: 100%;margin-bottom: 0px;}
+    .copyright-graphique a{margin-bottom: 0px;}
+    .footer-links a, .footer-address h6{font-size: 16px;}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 }
 
 
 
 @media screen and (max-width:575px){
 
+    .about-head-txt h2{width: 100%;font-size: 40px;line-height: 50px;}
+    .post-name-txt h3{max-width: 260px; font-size: 18px;}
+    .service-big-link-cnt .col-sm-1, .col-sm-11{width: auto;}
+    .service-big-link-cnt .col-sm-1{padding-right: 0px;}
+    .service-big-link-cnt .col-sm-11{padding-left: 0px;}
+    .service-post-name-btn{width: 360px;margin-left: 0px;}
+    .service-post-number h4{font-size: 23px;}
+    .service-btn{width: 23px;height: 23px;}
+    .service-btn .material-symbols-outlined{font-size: 15px;}
+    .section-head-txt h2{font-size: 30px;}
+    .the-agency-content h1{font-size: 53px;}
+    .post-name-img img{width: 25px;}
+
+
+
+
+
 	
 }
 
 
 @media screen and (max-width:480px){
+
+    .about-head-txt h2{width: 100%;font-size: 40px;line-height: 50px;}
+    .post-name-txt h3{max-width: 260px; font-size: 18px;}
+    .service-big-link-cnt .col-sm-1, .col-sm-11{width: auto;}
+    .service-big-link-cnt .col-sm-1{padding-right: 0px;}
+    .service-big-link-cnt .col-sm-11{padding-left: 0px;}
+    .service-post-name-btn{width: 360px;margin-left: 0px;}
+    .service-post-number h4{font-size: 23px;}
+
+
 
 	
 }
