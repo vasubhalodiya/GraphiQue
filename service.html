@@ -19,44 +19,46 @@
     <body class="background-color">
         <div class="main" id="main-site">
             <div class="nav">
-                <div class="navbar">
-                    <div class="logo">
-                        <a href="index.html"><img src="images/logo.png" alt=""></a>
-                        <h6>Social Media Marketing</h6>
-                    </div>
-                    <div class="navbar-links">
-                        <div class="navbar-links-cnt">
-                            <div class="navbar-display active">
-                                <div class="navbar-contact">
-                                    <a href="contact.html">Contact</a>
-                                </div>
-                                <div class="navbar-menu-btn">
-                                    <a href="javascript:;" class="open-menu"><h3>Menu</h3></a>
-                                </div>
-                            </div>
-                            <div class="navbar-sidebar">
-                                <div class="navbar-head">
-                                    <div class="navbar-sidebar-logo">
-                                        <img src="images/logo.png" alt="">
+                <div class="navbar s-navbar">
+                    <div class="container">
+                        <div class="s-logo">
+                            <a href="index.html"><img src="images/logo.png" alt="" class="s-img"></a>
+                            <h6>Social Media Marketing</h6>
+                        </div>
+                        <div class="navbar-links">
+                            <div class="navbar-links-cnt">
+                                <div class="navbar-display active">
+                                    <div class="navbar-contact s-navbar-contact">
+                                        <a href="contact.html">Contact</a>
                                     </div>
-                                    <div class="navbar-head-sec">
-                                        <div class="navbar-contact">
-                                            <a href="contact.html">Contact</a>
+                                    <div class="navbar-menu-btn s-navbar-menu-btn">
+                                        <a href="javascript:;" class="open-menu"><h3>Menu</h3></a>
+                                    </div>
+                                </div>
+                                <div class="navbar-sidebar">
+                                    <div class="navbar-head">
+                                        <div class="navbar-sidebar-logo">
+                                            <img src="images/logo.png" alt="">
                                         </div>
-                                        <div class="navbar-close">
-                                            <a href="javascript:;">close</a>
+                                        <div class="navbar-head-sec">
+                                            <div class="navbar-contact">
+                                                <a href="contact.html">Contact</a>
+                                            </div>
+                                            <div class="navbar-close">
+                                                <a href="javascript:;">close</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="navbar-menu">
-                                    <div class="navbar-menu-list">
-                                        <a href="index.html"><h4>01</h4><h3>Home</h3></a>
-                                    </div>
-                                    <div class="navbar-menu-list active">
-                                        <a href="service.html"><h4>02</h4><h3>Service</h3></a>
-                                    </div>
-                                    <div class="navbar-menu-list">
-                                        <a href="contact.html"><h4>03</h4><h3>Contact</h3></a>
+                                    <div class="navbar-menu">
+                                        <div class="navbar-menu-list">
+                                            <a href="index.html"><h4>01</h4><h3>Home</h3></a>
+                                        </div>
+                                        <div class="navbar-menu-list active">
+                                            <a href="service.html"><h4>02</h4><h3>Service</h3></a>
+                                        </div>
+                                        <div class="navbar-menu-list">
+                                            <a href="contact.html"><h4>03</h4><h3>Contact</h3></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -308,7 +310,15 @@
                         <h1>SEE HOW WE <img src="images/case-image.jpg" alt="" class="case-img"> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/camera-coloured.svg" alt="" class="camera">
                             CAN HELP YOUR <br>
                             BUSINESS GROW</h1>
-                            <h1 class="case-last"><img src="images/case-woman.svg" alt="" class="case-woman">TODAY <a href="contact.html">Contact us</a></h1>
+                            <div class="grow-desktop-view">
+                                <h1 class="case-last"><img src="images/case-woman.svg" alt="" class="case-woman">TODAY <a href="contact.html">Contact us</a></h1>
+                            </div>
+                            <div class="grow-mobile-view">
+                                <div class="grow-mobile-cnt">
+                                    <h1 class="case-last">TODAY</h1>
+                                    <h2><img src="images/case-woman.svg" alt="" class="case-woman"><a href="contact.html">Contact us</a></h2>
+                                </div>
+                            </div>
                         </h1>
                     </div>
                 <!-- </div> -->
@@ -327,74 +337,76 @@
             </div>
 
             <div class="footer">
-                <!-- <div class="duck-img-footer">
-                    <img src="images/rubber-ring.svg" alt="">
-                </div> -->
-                <div class="footer-content">
-                    <div class="footer-logo">
-                        <img src="images/logo.png" alt="">
-                    </div>
-                    <div class="footer-menus">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="footer-section">
-                                    <div class="footer-main">
-                                        <h3>You had me at aloha.</h3>
-                                        <h4>Let's chat.</h4>
-                                        <div class="footer-contact-btn">
-                                            <a href="contact.html">Contact Us</a>
+                <div class="container">
+                    <!-- <div class="duck-img-footer">
+                        <img src="images/rubber-ring.svg" alt="">
+                    </div> -->
+                    <div class="footer-content">
+                        <div class="footer-logo">
+                            <img src="images/logo.png" alt="">
+                        </div>
+                        <div class="footer-menus">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="footer-section">
+                                        <div class="footer-main">
+                                            <h3>You had me at aloha.</h3>
+                                            <h4>Let's chat.</h4>
+                                            <div class="footer-contact-btn">
+                                                <a href="contact.html">Contact Us</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="footer-section">
+                                        <div class="footer-links">
+                                            <h5>Browse</h5>
+                                            <ul>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Service</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="footer-section">
+                                        <div class="footer-links">
+                                            <h5>Contact</h5>
+                                            <ul>
+                                                <li><a href="#">helloworld@gmail.com</a></li>
+                                                <li><a href="#">+91 12345 67890</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="footer-section">
+                                        <div class="footer-address">
+                                            <h5>GraphiQue HQ</h5>
+                                            <h6>Poolhouse Studio 128 Albert Road Southsea Hampshire PO4 0JS</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-2">
-                                <div class="footer-section">
-                                    <div class="footer-links">
-                                        <h5>Browse</h5>
-                                        <ul>
-                                            <li><a href="#">About</a></li>
-                                            <li><a href="#">Service</a></li>
-                                            <li><a href="#">Contact</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="footer-section">
-                                    <div class="footer-links">
-                                        <h5>Contact</h5>
-                                        <ul>
-                                            <li><a href="#">helloworld@gmail.com</a></li>
-                                            <li><a href="#">+91 12345 67890</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="footer-section">
-                                    <div class="footer-address">
-                                        <h5>GraphiQue HQ</h5>
-                                        <h6>Poolhouse Studio 128 Albert Road Southsea Hampshire PO4 0JS</h6>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="copyright">
-                    <div class="copyright-content">
-                        <div class="copyright-txt">
-                            <div class="copyright-graphique">
-                                <h6>© 2024 GraphiQue</h6>
-                                <a href="#">Legal Information</a>
-                                <h6>Site by <a href="#">Parth</a></h6>
+                    <div class="copyright">
+                        <div class="copyright-content">
+                            <div class="copyright-txt">
+                                <div class="copyright-graphique">
+                                    <h6>© 2024 GraphiQue</h6>
+                                    <a href="#">Legal Information</a>
+                                    <h6>Site by <a href="#">Parth</a></h6>
+                                </div>
+                                <div class="graphique-service">
+                                    <h6><a>Top Social Media Marketing Companies</a></h6>
+                                </div>
                             </div>
-                            <div class="graphique-service">
-                                <h6><a>Top Social Media Marketing Companies</a></h6>
+                            <div class="copyright-img">
+                                <img src="images/footer-person.svg" alt="">
                             </div>
-                        </div>
-                        <div class="copyright-img">
-                            <img src="images/footer-person.svg" alt="">
                         </div>
                     </div>
                 </div>

@@ -32,6 +32,21 @@
     .insta-camera img{width: 115px;}
     .insta-circle-image img{width: 320px;top: 195px;}
     .footer-content{padding: 180px 0px;padding-bottom: 70px;}
+/* ==================================== */
+
+    .service-head h3{font-size: 25px;margin-bottom: 10px;}
+    .service-head-txt h2{font-size: 60px;}
+    .service-card{margin: 0px 30px;}
+    .service-card-txt h2{margin-bottom: 40px;}
+    .service-card-txt h1{max-width: 300px;font-size: 40px;margin-bottom: 20px;}
+    .service-card-txt p{font-size: 17px;line-height: 25px;}
+    .grow-business{padding: 0px 70px;padding-bottom: 80px;}
+    .grow-business-content h1{font-size: 80px;}
+    .case-img{width: 360px;height: 80px;}
+    .camera{width: 100px;}
+    .grow-mobile-view{display: block;}
+    .grow-desktop-view{display: none;}
+
 
 }
 

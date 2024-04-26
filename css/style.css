@@ -347,9 +347,10 @@ ul {
 }
 .container{
     width: 100%;
-    /* max-width: 1170px; */
-    max-width: 95%;
+    max-width: 1400px;
+    /* max-width: 95%; */
     margin: 0px auto;
+    padding: 0;
 }
 
 /* ************************************************************************************* */
@@ -524,8 +525,6 @@ ul {
     letter-spacing: 2px;
 }
 
-
-
 .navbar-close i {
     color: #fff;
     text-align: end;
@@ -535,6 +534,55 @@ ul {
 
 .navbar-close {
     text-align: end;
+}
+
+.s-navbar {
+    width: 100%;
+    background-color: #F0F0F0;
+    /* border-bottom: 3px solid #000; */
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.s-logo
+{
+    display: flex;
+    align-items: center;
+}
+
+.s-logo img
+{
+    width: 150px;
+    border-right: 1px solid rgb(22, 88, 179, 0.5);
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.s-logo h6
+{
+    color: #1658b3;
+    font-size: 15px;
+}
+
+.s-navbar-contact a
+{
+    color: #fff;
+    background-color: #1658b3;
+    font-size: 20px;
+    font-family: 'Grey-Bold';
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.s-navbar-menu-btn h3
+{
+    color: #1658b3;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Grey-Bold';
 }
 
 /* ********************************************************************* */
@@ -1373,6 +1421,12 @@ ul {
     /* padding-bottom: 60px; */
 }
 
+.service-card-dtl .row
+{
+    display: flex;
+    align-items: start;
+}
+
 .bottom-border
 {
     border-bottom: 1px solid #1658b3;
@@ -1482,6 +1536,58 @@ ul {
     color: #1658b3;
     font-size: 120px;
     font-family: 'BatonTurbo-Bold';
+    margin-bottom: 70px;
+}
+
+.grow-mobile-view
+{
+    display: none;
+}
+
+.grow-mobile-cnt
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grow-mobile-cnt h1
+{
+    text-align: center;
+}
+
+.grow-mobile-cnt .case-woman
+{
+    width: 250px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    z-index: 100;
+}
+
+.grow-mobile-cnt h2
+{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    margin-top: -70px;
+
+    position: relative;
+}
+
+.grow-mobile-cnt h2 a
+{
+    width: 100%;
+    color: #fff;
+    background-color: #1658b3;
+    font-size: 30px;
+    font-family: 'Grey-Bold';
+    padding: 20px 100px;
+    border-radius: 100px;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .camera
