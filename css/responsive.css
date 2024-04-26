@@ -264,7 +264,7 @@
     .card-mobile-cnt-btn{display: flex;}
     .service-card-mobile-cnt{display: flex;align-items: end;justify-content: space-between;}
     .grow-business{padding: 0px 25px;padding-bottom: 80px;display: block;}
-    .grow-business-content h1{font-size: 58px;}
+    .grow-business-content h1{font-size: 58px;text-align: center;}
     .case-img{display: none;}
     .camera{display: none;}
     .grow-mobile-view{display: block;}
@@ -308,7 +308,7 @@
     .client-logo{height: 200px;}
     .client-logo-cnt img{width: 80px;}
 /* ======================================================= */
-    .grow-business-content h1{font-size: 48px;line-height: 55px;}
+    .grow-business-content h1{font-size: 48px;line-height: 55px; text-align: center;}
 
 
 
@@ -375,11 +375,11 @@
     .s-logo h6{display: none;}
     .service-heading-main{padding-top: 180px;}
     .service-card{margin: 0px 15px;}
-    .grow-business-content h1{font-size: 30px;line-height: 35px;}
+    .grow-business-content h1{font-size: 30px;line-height: 35px; text-align: center;}
     .grow-mobile-cnt .case-woman{width: 100px;}
     .the-latest-content{display: none;}
     .the-latest-content-mobile{display: block;padding: 30px 20px;}
-    .the-latest-content-mobile h3{font-size: 23px;}
+    .the-latest-content-mobile h3{width: 150px; font-size: 23px;}
     .the-latest-content-mobile a{font-size: 15px;}
 
 
