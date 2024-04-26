@@ -46,6 +46,7 @@
     .camera{width: 100px;}
     .grow-mobile-view{display: block;}
     .grow-desktop-view{display: none;}
+    .grow-second-line{margin-left: 120px;}
 
 
 }
@@ -84,6 +85,25 @@
     .footer-content{padding: 180px 0px;padding-bottom: 70px;}
     .footer-main h3{width: 220px;}
     .footer-main h4{font-size: 30px;}
+/* ==================================== */
+
+    .service-head h3{font-size: 25px;margin-bottom: 10px;}
+    .service-head-txt h2{font-size: 60px;}
+    .service-card{margin: 0px 30px;}
+    .service-card-txt h2{margin-bottom: 40px;}
+    .service-card-txt h1{max-width: 300px;font-size: 40px;margin-bottom: 20px;}
+    .service-card-txt p{font-size: 17px;line-height: 25px;}
+    .grow-business{padding: 0px 70px;padding-bottom: 80px;}
+    .grow-business-content h1{font-size: 80px;}
+    .case-img{width: 310px;height: 80px;}
+    .camera{width: 100px;}
+    .grow-mobile-view{display: block;}
+    .grow-desktop-view{display: none;}
+    .the-latest-content{padding: 25px 50px;}
+    .grow-second-line{margin-left: 65px;}
+
+
+
 
 }
 
@@ -132,6 +152,26 @@
     .copyright-img img{width: 85%;padding-right: 0;}
     footer{padding: 0px 40px;}
     .copyright-img{margin-right: -50px;}
+/* ==================================== */
+
+    .service-head h3{font-size: 25px;margin-bottom: 10px;}
+    .service-head-txt h2{font-size: 60px;}
+    .service-card{margin: 0px 30px;}
+    .service-card-txt h2{margin-bottom: 40px;}
+    .service-card-txt h1{max-width: 300px;font-size: 40px;margin-bottom: 20px;}
+    .service-card-txt p{font-size: 17px;line-height: 25px;}
+    .grow-business{padding: 0px 60px;padding-bottom: 80px;}
+    .grow-business-content h1{font-size: 65px;}
+    .case-img{width: 200px;height: 60px;}
+    .camera{width: 90px;}
+    .grow-mobile-view{display: block;}
+    .grow-desktop-view{display: none;}
+    .the-latest-content{padding: 25px 40px;}
+    .grow-second-line{margin-left: 0px;}
+    .latest-link a{margin: 0px;margin-right: 20px;}
+
+
+
 
 	
 }
@@ -207,6 +247,42 @@
     .copyright-graphique h6{width: 100%;margin-bottom: 0px;}
     .copyright-graphique a{margin-bottom: 0px;}
     .footer-links a, .footer-address h6{font-size: 16px;}
+/* ==================================== */
+
+    .service-head h3{font-size: 25px;margin-bottom: 10px;}
+    .service-head-txt h2{width: 90%; font-size: 50px;line-height: 60px;}
+    .service-heading-main{padding-bottom: 100px;}
+    .service-card{margin: 0px 30px;}
+    .service-card-txt h2{margin-bottom: 20px;}
+    .service-card-txt h1{max-width: 50%;font-size: 40px;margin-bottom: 20px;}
+    .service-card-txt p{max-width: 85%; font-size: 17px;line-height: 25px;}
+    .service-card-dtl{padding: 20px 0px;}
+    .service-card-mobile{display: flex;flex-direction: row-reverse;align-items: start;justify-content: space-between;}
+    .service-card-dtl .row{flex-direction: column-reverse;}
+    .service-card-img{margin-bottom: 20px;}
+    .card-mobile-cnt-btn{display: flex;}
+    .service-card-mobile-cnt{display: flex;align-items: end;justify-content: space-between;}
+    .grow-business{padding: 0px 60px;padding-bottom: 80px;}
+    .grow-business-content h1{font-size: 65px;}
+    .case-img{width: 200px;height: 60px;}
+    .camera{width: 90px;}
+    .grow-mobile-view{display: block;}
+    .grow-desktop-view{display: none;}
+    .the-latest-content{padding: 25px 40px;}
+    .grow-second-line{margin-left: 0px;}
+    .latest-link a{margin: 0px;margin-right: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 

@@ -1467,6 +1467,23 @@ ul {
     line-height: 30px;
 }
 
+.card-mobile-cnt-btn
+{
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    background-color: #1658b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.card-mobile-cnt-btn
+{
+    display: none;
+}
+
 .service-card-cnt
 {
     display: flex;
@@ -1537,6 +1554,11 @@ ul {
     font-size: 120px;
     font-family: 'BatonTurbo-Bold';
     margin-bottom: 70px;
+}
+
+.grow-second-line
+{
+    margin-left: 150px;
 }
 
 .grow-mobile-view
