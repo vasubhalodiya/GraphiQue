@@ -1203,7 +1203,7 @@ ul {
 {
     width: 130px;
     position: absolute;
-    bottom: -210px;
+    bottom: -190px;
     left: -20px;
 }
 
@@ -1651,7 +1651,7 @@ ul {
     margin-bottom: 15px;
 }
 
-.the-latest-content
+.the-latest-content, .the-latest-content-mobile
 {
     background-color: #0E61E0;
     padding: 30px 50px;
@@ -1660,7 +1660,7 @@ ul {
     justify-content: space-between;
 }
 
-.the-latest-content h3
+.the-latest-content h3, .the-latest-content-mobile h3
 {
     color: #fff;
     font-size: 30px;
@@ -1673,7 +1673,7 @@ ul {
     align-items: center;
 }
 
-.latest-link a
+.latest-link a, .the-latest-content-mobile a
 {
     color: #fff;
     font-size: 20px;
@@ -1681,7 +1681,7 @@ ul {
     margin-right: 20px;
 }
 
-.latest-logo
+.latest-logo, .latest-logo-mobile
 {
     width: 100px;
     height: 100px;
@@ -1691,14 +1691,20 @@ ul {
     align-items: center;
 }
 
-.latest-logo img
+.latest-logo img, .latest-logo-mobile img
 {
     width: 70px;
 }
 
+.the-latest-content-mobile
+{
+    display: none;
+}
 
-
-
+.latest-responsive
+{
+    display: flex;
+}
 
 
 

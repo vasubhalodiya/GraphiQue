@@ -260,19 +260,20 @@
     .service-card-mobile{display: flex;flex-direction: row-reverse;align-items: start;justify-content: space-between;}
     .service-card-dtl .row{flex-direction: column-reverse;}
     .service-card-img{margin-bottom: 20px;}
+    .service-main-content{padding-bottom: 50px;}
     .card-mobile-cnt-btn{display: flex;}
     .service-card-mobile-cnt{display: flex;align-items: end;justify-content: space-between;}
-    .grow-business{padding: 0px 60px;padding-bottom: 80px;}
-    .grow-business-content h1{font-size: 65px;}
-    .case-img{width: 200px;height: 60px;}
-    .camera{width: 90px;}
+    .grow-business{padding: 0px 25px;padding-bottom: 80px;display: block;}
+    .grow-business-content h1{font-size: 58px;}
+    .case-img{display: none;}
+    .camera{display: none;}
     .grow-mobile-view{display: block;}
     .grow-desktop-view{display: none;}
-    .the-latest-content{padding: 25px 40px;}
+    .the-latest-content{padding: 20px 30px;}
     .grow-second-line{margin-left: 0px;}
-    .latest-link a{margin: 0px;margin-right: 20px;}
-
-
+    .latest-link a{margin: 0px;margin-right: 15px;}
+    .grow-mobile-cnt .case-woman{width: 170px;}
+    .grow-mobile-cnt h2 a{font-size: 20px;margin-bottom: 10px;padding: 15px 40px;}
 
 
 
@@ -306,6 +307,11 @@
     .client-details{grid-template-columns: 1fr 1fr;}
     .client-logo{height: 200px;}
     .client-logo-cnt img{width: 80px;}
+/* ======================================================= */
+    .grow-business-content h1{font-size: 48px;line-height: 55px;}
+
+
+
 	
 }
 
@@ -362,6 +368,22 @@
     .client-details{grid-template-columns: 1fr 1fr;}
     .client-logo{height: 160px;}
     .client-logo-cnt img{width: 60px;}
+/* ================================================ */
+    .service-head h3{font-size: 22px;}
+    .service-head-txt h2{font-size: 32px;line-height: 40px;}
+    .s-logo img{width: 100px; border: none;margin: 0;padding: 0;}
+    .s-logo h6{display: none;}
+    .service-heading-main{padding-top: 180px;}
+    .service-card{margin: 0px 15px;}
+    .grow-business-content h1{font-size: 30px;line-height: 35px;}
+    .grow-mobile-cnt .case-woman{width: 100px;}
+    .the-latest-content{display: none;}
+    .the-latest-content-mobile{display: block;padding: 30px 20px;}
+    .the-latest-content-mobile h3{font-size: 23px;}
+    .the-latest-content-mobile a{font-size: 15px;}
+
+
+
 }
 
 
