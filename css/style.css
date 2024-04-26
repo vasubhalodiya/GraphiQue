@@ -567,7 +567,7 @@ ul {
     font-size: 15px;
 }
 
-.s-navbar-contact a
+.s-navbar-contact a, .c-navbar-contact a
 {
     color: #fff;
     background-color: #1658b3;
@@ -577,7 +577,7 @@ ul {
     border-radius: 50px;
 }
 
-.s-navbar-menu-btn h3
+.s-navbar-menu-btn h3, .c-navbar-menu-btn h3
 {
     color: #1658b3;
     width: 100%;
@@ -1710,6 +1710,11 @@ ul {
 
 /* *************************************************service page 1********************************* */
 
+.content-service-content-mobile
+{
+    display: none;
+}
+
 .content-txt
 {
     padding: 40px;
@@ -1719,6 +1724,7 @@ ul {
 {
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .c-logo img
@@ -1736,11 +1742,12 @@ ul {
     font-size: 15px;
 }
 
-.content-back-btn
+.content-back-btn a
 {
     display: flex;
     align-items: center;
     gap: 15px;
+    margin-bottom: 60px;
 }
 
 .content-btn-icon
@@ -1756,18 +1763,101 @@ ul {
     border-radius: 50%;
 }
 
+.content-btn-txt h6
+{
+    color: #1658b3;
+    font-size: 17px;
+    font-family: 'Grey-Bold';
+}
 
+.content-btn-txt h6:hover
+{
+    color: #3266af;
+}
 
+.content-head h3
+{
+    width: 80%;
+    color: #1658b3;
+    font-size: 80px;
+    font-family: 'BatonTurbo-Bold';
+    line-height: 80px;
+    margin-bottom: 50px;
+}
 
+.content-cnt h5
+{
+    color: #1658b3;
+    font-size: 25px;
+    font-family: 'Grey-Bold';
+    margin-bottom: 10px;
+}
 
+.content-cnt p
+{
+    width: 75%;
+    color: #1658b3;
+    font-size: 16px;
+    font-family: 'Grey-Regular';
+    margin-bottom: 10px;
+}
 
+.content-slider-img img
+{
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+}
 
+.content-img
+{
+    position: relative;
+}
 
+.content-img .navbar-links-cnt
+{
+    background-color: #fff;
+    padding: 20px 18px;
+    padding-right: 25px;
+    border-radius: 40px;
 
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    z-index: 1000;
+}
 
+.btn-wrap-content button
+{
+    border: none;
+    background: none;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    background-color: #1658b3;
+    border-radius: 50%;
+}
 
+.btn-wrap-content i
+{
+    font-size: 17px;
+}
 
+.btn-wrap-content .prev-btn
+{
+    position: absolute;
+    bottom: 50px;
+    right: 140px;
+    z-index: 100;
+}
 
+.btn-wrap-content .next-btn
+{
+    position: absolute;
+    bottom: 50px;
+    right: 70px;
+    z-index: 100;
+}
 
 
 
