@@ -1708,6 +1708,103 @@ ul {
     justify-content: space-between;
 }
 
+/* *************************************************service page 1********************************* */
+
+.content-txt
+{
+    padding: 40px;
+}
+
+.c-logo
+{
+    display: flex;
+    align-items: center;
+}
+
+.c-logo img
+{
+    width: 180px;
+    border-right: 1px solid rgb(22, 88, 179, 0.5);
+    padding: 10px 0px;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.c-logo h6
+{
+    color: #1658b3;
+    font-size: 15px;
+}
+
+.content-back-btn
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.content-btn-icon
+{
+    color: #1658b3;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid #1658b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
