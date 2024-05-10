@@ -1609,6 +1609,11 @@ a,
     }
 }
 
+.welcome
+{
+    padding: 100px;
+}
+
 .welcome-float-txt {
     display: flex;
     justify-content: left;
@@ -1634,13 +1639,30 @@ a,
 
 .welcome-paragraph p
 {
-    width: 500px;
+    width: 540px;
     color: rgb(255, 255, 255, 0.6);
     font-size: 17px;
     font-family: 'Grey-Regular';
 }
 
+.welcome-content .row
+{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
 
+.welcome-img
+{
+    display: flex;
+    align-content: center;
+    justify-content: right;
+}
+
+.welcome-img img
+{
+    width: 400px;
+}
 
 
 
