@@ -121,19 +121,19 @@
                         </div>
                         <div class="about-part-section">
                             <div class="row">
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 col-md-4 col-sm-12">
                                     <div class="about-part-cnt">
                                         <h4>HELP OTHERS THRIVE</h4>
                                         <p>We're all about the positive energy - we're here to find solutions not problems after all. Our upbeat team aim to be constructive in every scenario because ultimately we love nothing more than seeing people succeed.</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 col-md-4 col-sm-12">
                                     <div class="about-part-cnt">
                                         <h4>CELEBRATE COMMUNITY</h4>
                                         <p>Finding your tribe and feeling seen is something we value here at Swwim. A sense of community can be found anywhere these days, whether it's physically or virtually. We're dedicated to helping people find their crew.</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-4">
+                                <div class="col-lg-4 col-md-4 col-sm-12">
                                     <div class="about-part-cnt">
                                         <h4>ADAPT AND EVOLVE</h4>
                                         <p>Our industry changes so fast and it's crucial we're able to react and learn quickly. We promise to always remain nimble and constantly evaluate (and reevaluate) the way we're working. If there's a better way, we're on board.</p>
@@ -145,7 +145,7 @@
                 </div>
             </div>
 
-            <div class="we-offer-main">
+            <!-- <div class="we-offer-main">
                 <div class="container">
                     <div class="we-offer">
                         <div class="we-heading">
@@ -382,9 +382,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="our-client">
+            <!-- <div class="our-client">
                 <div class="container">
                     <div class="client-content">
                         <div class="section-head client-head">
@@ -445,42 +445,41 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="the-agency">
-                <!-- <div class="container"> -->
-                    <div class="the-agency-content">
-                        <h1>“THE AGENCY <img src="images/sunglasses.svg" alt=""> <br> <img src="images/message.svg" alt="">
-                            THAT TRULY FEELS <br>
-                            LIKE A PART OF</h1>
-                            <h1 class="agency-txt-photo">OUR TEAM” 
-                            <div class="people-photo">
-                                <div class="people-photo-img">
-                                    <img src="images/logo with background.jpg" alt="">
-                                </div>
-                                <div class="people-photo-name">
-                                    <h5>Hello World, <span>Head of PR</span></h5>
-                                    <h5><span>Hello World</span></h5>
-                                </div>
+            <!-- <div class="the-agency">
+                <div class="the-agency-content">
+                    <h1>“THE AGENCY <img src="images/sunglasses.svg" alt=""> <br> <img src="images/message.svg" alt="">
+                        THAT TRULY FEELS <br>
+                        LIKE A PART OF</h1>
+                        <h1 class="agency-txt-photo">OUR TEAM” 
+                        <div class="people-photo">
+                            <div class="people-photo-img">
+                                <img src="images/logo with background.jpg" alt="">
                             </div>
-                        </h1>
-                    </div>
-                <!-- </div> -->
-            </div>
-
-            <!-- <div class="with-heart">
-                <div class="with-heart-content">
-                    <marquee direction="left" scrollamount=15><h1>BUILDING COMMUNITIES WITH HEART • BUILDING COMMUNITIES WITH HEART</h1></marquee>
+                            <div class="people-photo-name">
+                                <h5>Hello World, <span>Head of PR</span></h5>
+                                <h5><span>Hello World</span></h5>
+                            </div>
+                        </div>
+                    </h1>
                 </div>
             </div> -->
-            <div class="marquee">
-                <div class="marquee-content scroll">
-                    <div class="text-block">BUILDING COMMUNITIES WITH HEART • </div>
-                </div>
-                <div class="marquee-content scroll">
-                    <div class="text-block">BUILDING COMMUNITIES WITH HEART •</div>
+
+            <div class="marquee-row">
+                <div class="marquee-block marquee1">
+                    <ul class="marquee-item-list">
+                        <li>BUILDING COMMUNITIES WITH HEART • </li>
+                        <li>BUILDING COMMUNITIES WITH HEART • </li>
+                        <li>BUILDING COMMUNITIES WITH HEART • </li>
+                    </ul>  
                 </div>
             </div>
+
+            <div class="about-big-image">
+                <img src="images/about big img.jpg" alt="">
+            </div>
+
             <div class="instagram-section">
                 <!-- <div class="container"> -->
                     <div class="instagram-section-main">
@@ -611,6 +610,7 @@
         </div>
 <!-- *********************************************************************** -->
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
@@ -636,6 +636,15 @@
                 allctn[index].classList.add('active');
             })
         })
+    </script>
+
+    <script>
+        var elements = $('ul.marquee-item-list li').length;
+            for(var i=0;i < elements; i++){
+            $(".marquee-item-list").clone().prependTo( ".marquee-block" );
+            };
+            var liEle = [];
+            var liEle = $(".marquee-item-list li");
     </script>
 
     </body>

@@ -421,47 +421,68 @@ ul {
 
 /* ************************************************************************************* */
 
-::-webkit-scrollbar 
-{
+::-webkit-scrollbar {
     width: 0px;
 }
 
-.c-scrollbar_thumb 
-{
+.c-scrollbar_thumb {
     display: none;
 }
 
-.marquee 
-{
+.marquee {
     width: 100%;
-    grid-column-gap: 10px;
-    /* background-color: #ff5500; */
-    padding-top: 20px;
-    padding-bottom: 20px;
+    grid-column-gap: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     display: flex;
     overflow: hidden;
 }
 
-.marquee-content 
-{
-    /* width: 100%; */
-    grid-column-gap: 10px;
-    flex: none;
-    justify-content: space-around;
-    display: flex;
+.marquee-txt {
+    background-color: #f3f3f3;
 }
 
-.text-block 
-{
-    color: #000;
+.marquee-content {
+    /* width: 100%; */
+    grid-column-gap: 10px;
+    justify-content: space-around;
+    display: flex;
+    flex: none;
+}
+
+.text-block {
+    color: #1658b3;
     text-transform: uppercase;
     font-size: 60px;
     font-family: 'BatonTurbo-Bold';
     line-height: 1;
 }
 
-@keyframes scroll 
-{
+/* .marquee {
+    width: 100%;
+    background-color: var(--coral);
+    
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .marquee-content {
+    width: 100%;
+    flex: none;
+    justify-content: space-around;
+    display: flex;
+  }
+  
+  .text-block {
+    color: #000;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1;
+  } */
+
+@keyframes scroll {
     from {
         transform: translateX(0);
     }
@@ -471,21 +492,68 @@ ul {
     }
 }
 
-.scroll-img
-{
+.scroll-img {
     animation: scroll 50s linear infinite;
 }
 
-.scroll 
+.scroll {
+    animation: scroll 5s linear infinite;
+}
+
+.marquee-image {
+    width: 100%;
+    margin: 0px -6px;
+    -webkit-transform: translateZ(0);
+}
+
+.marquee-row
+{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #f3f3f3;
+}
+
+.marquee-block 
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    justify-content: space-between;
+}
+
+.marquee-item-list 
+{
+    display: inline-flex;
+}
+
+.marquee-item-list li 
+{
+    width: 100%;
+    color: #1658b3;
+    font-size: 60px;
+    font-family: 'BatonTurbo-Bold';
+    padding-right: 10px;
+    margin: 15px 0px;
+    list-style: none;
+    white-space: nowrap;
+}
+
+.marquee1 
 {
     animation: scroll 10s linear infinite;
 }
 
-.marquee-image 
-{
-    width: 100%;
-    margin: 0px -6px;
-    -webkit-transform: translateZ(0);
+@keyframes marquee1 {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -100%;
+    }
 }
 
 /* ************************************************************************************* */
@@ -778,10 +846,11 @@ ul {
 
 .about-content-main {
     padding: 50px 0px;
+    padding-bottom: 200px;
 }
 
 .about-content {
-    margin: 0 50px;
+    margin: 0 200px;
 }
 
 .about-cnt-big-txt h3 {
@@ -1418,6 +1487,176 @@ a,
     padding-right: 50px;
 }
 
+.about-big-image img
+{
+    width: 100%;
+}
+
+/* *************************************************** */
+
+.marketing
+{
+    padding: 100px 0px;
+    padding-bottom: 20px;
+}
+
+.marketing-line
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.marketing-txt h1
+{
+    color: #fff;
+    font-size: 150px;
+    font-family: 'BatonTurbo-Bold';
+    text-transform: uppercase;
+    line-height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.marketing-img-2 img
+{
+    width: 350px;
+    height: 120px;
+    /* margin-top: -30px; */
+    object-fit: cover;
+    margin: 0px 20px;
+    margin-top: 10px;
+}
+
+.marketing-img-1
+{
+    width: 300px;
+    height: 120px;
+    /* margin-top: -30px; */
+    object-fit: cover;
+    margin: 0px 20px;
+    margin-top: 10px;
+}
+
+.marketing-txt h1 p
+{
+    color: #fff;
+    width: 440px;
+    font-size: 19px;
+    text-transform: none;
+    font-family: 'Grey-Regular';
+    line-height: 25px;
+}
+
+.marketing-animation-line
+{
+    padding: 0px 50px;
+    margin-bottom: 100px;
+}
+
+.marketing-marquee-row
+{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.marketing-marquee-block 
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    justify-content: space-between;
+}
+
+.marketing-marquee-item-list 
+{
+    display: inline-flex;
+}
+
+.marketing-marquee-item-list li 
+{
+    width: 100%;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'BatonTurbo-Medium';
+    border-top: 1px solid #fff;
+    padding-top: 15px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    margin: 15px 0px;
+    list-style: none;
+    white-space: nowrap;
+}
+
+.marketing-marquee1 
+{
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes marketing-marquee1 {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+.welcome-float-txt {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.welcome-float-txt h3 {
+    color: #fff;
+    font-family: 'BatonTurbo-Medium';
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.welcome-heading h3
+{
+    width: 500px;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'BatonTurbo-Bold';
+    margin-bottom: 40px;
+}
+
+.welcome-paragraph p
+{
+    width: 500px;
+    color: rgb(255, 255, 255, 0.6);
+    font-size: 17px;
+    font-family: 'Grey-Regular';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* *************************************** SERVICE *******************************************************/
 
 .background-color {
@@ -1885,6 +2124,92 @@ a,
     right: 70px;
     z-index: 100;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -18,6 +18,7 @@
     .the-agency-content h1{font-size: 80px;}
     .people-photo img{width: 70px;margin-left: 0px;margin-top: -25px;}
     .with-heart-content h1{font-size: 65px;}
+    .about-content{margin: 0px 100px;}
 
     .insta-img-one img{top: -210px}
     .insta-img-two img{width: 15%;right: 220px;top: -220px;}
@@ -77,6 +78,7 @@
     .the-agency-content h1{font-size: 77px;}
     .people-photo img{width: 70px;margin-left: 0px;margin-top: -25px;}
     .with-heart-content h1{font-size: 65px;}
+    .about-content{margin: 0px 100px;}
 
     .insta-img-one img{top: -210px}
     .insta-img-two img{width: 15%;right: 200px;top: -220px;}
@@ -144,6 +146,7 @@
     .with-heart-content h1{font-size: 55px;}
     .people-photo{margin-top: 15px;}
     .people-photo-name h5, .people-photo-name h5 span{font-size: 18px;}
+    .about-content{margin: 0px 80px;}
 
     .insta-img-one img{width: 19%; top: -190px}
     .insta-img-two img{width: 16%;right: 130px;top: -170px;}
@@ -242,6 +245,7 @@
     .people-photo{margin-top: 15px;}
     .people-photo-name h5, .people-photo-name h5 span{font-size: 16px;}
     .people-photo-name h5{width: 100%;}
+    .about-content{margin: 0px 40px;}
 
     .insta-img-one img{width: 23%; top: -135px; left: 30px;}
     .insta-img-two img{width: 19%;right: 85px;top: -130px;}
@@ -341,6 +345,7 @@
     .client-details{grid-template-columns: 1fr 1fr;}
     .client-logo{height: 200px;}
     .client-logo-cnt img{width: 80px;}
+    .about-content{margin: 0px 30px;}
 /* ======================================================= */
     .grow-business-content h1{font-size: 48px;line-height: 55px; text-align: center;}
 
@@ -380,6 +385,7 @@
     .with-heart-content h1{font-size: 33px;}
     .client-content{margin: auto 0px;}
     .client-details{margin: auto 20px;}
+    .about-content{margin: 0px 25px;}
 
     .insta-img-one img{width: 23%; top: -115px; left: 30px;}
     .insta-img-two img{width: 17%;right: 70px;top: -120px;}
