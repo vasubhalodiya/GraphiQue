@@ -6,7 +6,7 @@
     .duck-img-footer img{display: none;}
     /* .navbar{display: none;} */
     
-    .navbar{padding: 20px 50px;}
+    .navbar{padding: 20px 30px;}
     .about-head-txt h2{width: 750px;font-size: 60px;line-height: 60px;}
     .about-cnt-big-txt h3{font-size: 33px;}
     .we-offer{margin: 0px 30px;}
@@ -58,13 +58,41 @@
     .content-head h3{font-size: 50px;line-height: 50px;margin-bottom: 40px;}
     .content-cnt p{width: 95%;}
 
+/* ============================================= */
+
+    .marketing-txt{padding: 0px 40px;}
+    .marketing-img-1{width: 220px;height: 80px;margin: 0px;margin-top: 10px;}
+    .marketing-img-2 img{width: 250px;height: 80px;margin: 0px;margin-top: 10px;}
+    .marketing-txt h1{font-size: 100px;line-height: 110px;}
+    .marketing-txt h1 p{width: 300px; font-size: 14px;line-height: 20px;letter-spacing: 0.3px;}
+    .marketing-marquee-item-list li{font-size: 23px;}
+    .marketing-animation-line{margin-bottom: 0px;}
+    .welcome{padding: 80px 60px;padding-bottom: 50px;}
+    .welcome-heading h3{width: 380px;}
+    .welcome-img img{width: 350px;}
+    .welcome-paragraph p{width: 470px;}
+    .welcome-insta-img-one img{width: 350px; padding-left: 30px;padding-top: 50px;}
+    .welcome-insta-img-two{padding-left: 50px;}
+    .welcome-insta-img-two img{width: 350px; padding-left: 0px;padding-top: 0px;}
+    .insta-circle-inner img{width: 120px;}
+    .insta-circle-outer img{width: 300px;}
+    .welcome-insta-circle{left: 42%;}
+    .all-about{padding: 0px 40px;padding-bottom: 100px;}
+    .all-about-content h1{font-size: 107px;line-height: 110px;margin-bottom: 0px;}
+    .all-about-content .all-about-line{font-size: 107px;line-height: 110px;}
+    .all-about-heading{margin-bottom: 70px;}
+
+
+
+
+
 }
 
 @media screen and (min-width:992px) and (max-width:1024px){
 	.duck-img-footer img{display: none;}
     /* .navbar{display: none;} */
 
-    .navbar{padding: 20px 50px;}
+    .navbar{padding: 20px 30px;}
     .about-heading-main .container{max-width: 85%;}
     .about-head h3{font-size: 25px;margin-bottom: 15px;}
     .about-head-txt h2{width: 100%;font-size: 63px;line-height: 70px;}
@@ -120,6 +148,55 @@
     .content-back-btn a{margin-bottom: 40px;}
     .content-head h3{font-size: 50px;line-height: 50px;margin-bottom: 40px;}
     .content-cnt p{width: 95%;}
+/* ============================================= */
+
+    .marketing-txt{padding: 0px 40px;}
+    .marketing-img-1{width: 220px;height: 80px;margin: 0px;margin-top: 10px;}
+    .marketing-img-2 img{width: 250px;height: 80px;margin: 0px;margin-top: 10px;}
+    .marketing-txt h1{font-size: 95px;line-height: 100px;}
+    .marketing-txt h1 p{width: 340px; font-size: 14px;line-height: 20px;letter-spacing: 0.3px;}
+    .marketing-marquee-item-list li{font-size: 23px;}
+    .marketing-animation-line{margin-bottom: 0px;}
+    .welcome{padding: 80px 60px;padding-bottom: 50px;}
+    .welcome-heading h3{width: 380px;}
+    .welcome-img img{width: 350px;}
+    .welcome-paragraph p{width: 470px;}
+    .welcome-insta-img-one img{width: 350px; padding-left: 30px;padding-top: 50px;}
+    .welcome-insta-img-two{padding-left: 50px;}
+    .welcome-insta-img-two img{width: 350px; padding-left: 0px;padding-top: 0px;}
+    .insta-circle-inner img{width: 120px;}
+    .insta-circle-outer img{width: 300px;}
+    .welcome-insta-circle{left: 27%;}
+    .all-about{padding: 0px 40px;padding-bottom: 100px;}
+    .all-about-content h1{font-size: 100px;line-height: 110px;margin-bottom: 0px;}
+    .all-about-content .all-about-line{font-size: 100px;line-height: 110px;}
+    .all-about-heading{margin-bottom: 70px;}
+    .marketing-marquee-item-list li{padding: 20px 0px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -127,7 +204,7 @@
 	.duck-img-footer img{display: none;}
     /* .navbar{display: none;} */
 
-    .navbar{padding: 20px 50px;}
+    .navbar{padding: 20px 30px;}
     .about-heading-main .container{max-width: 85%;}
     .about-head h3{font-size: 25px;margin-bottom: 15px;}
     .about-head-txt h2{width: 100%;font-size: 49px;line-height: 60px;}
@@ -196,6 +273,56 @@
     .content-head h3{font-size: 47px;line-height: 47px;margin-bottom: 40px;}
     .content-cnt p{width: 95%;}
     .content-cnt h5{font-size: 23px;}
+/* ============================================= */
+
+    .marketing-txt{padding: 0px 30px;}
+    .marketing-img-1{width: 150px;height: 70px;margin: 0px;margin-top: 10px;}
+    .marketing-img-2 img{width: 200px;height: 70px;margin: 0px;margin-top: 10px;}
+    .marketing-txt h1{font-size: 73px;line-height: 75px;}
+    .marketing-txt h1 p{width: 260px; font-size: 12px;line-height: 15px;letter-spacing: 0.3px;margin-top: 10px;}
+    .marketing-marquee-item-list li{font-size: 20px;}
+    .marketing-animation-line{padding: 0px 30px; margin-bottom: 0px;}
+    .welcome{padding: 80px 60px;padding-bottom: 0px;}
+    .welcome-heading h3{width: 300px;font-size: 36px;}
+    .welcome-insta-content{padding: 0px;padding-bottom: 100px;}
+    .welcome-img img{width: 260px;}
+    .welcome-paragraph p{width: 330px;}
+    .welcome-insta-img-one{justify-content: right;}
+    .welcome-insta-img-one img{width: 270px;padding-right: 40px;margin-top: 100px;}
+    .welcome-insta-img-two{padding-left: 50px;}
+    .welcome-insta-img-two img{width: 260px; padding-left: 0px;margin-top: -70px;}
+    .insta-circle-inner img{width: 100px;}
+    .insta-circle-outer img{width: 250px;}
+    .welcome-insta-circle{top: -3%; left: 27%;}
+    .all-about{padding: 0px 40px;padding-bottom: 100px;}
+    .all-about-content h1{font-size: 77px;line-height: 80px;margin-bottom: 0px;}
+    .all-about-content .all-about-line{font-size: 77px;line-height: 80px;}
+    .all-about-heading{margin-bottom: 70px;}
+    .welcome-float-txt h3{font-size: 18px;margin-bottom: 10px;}
+    .all-about-cnt h4{margin-bottom: 20px;}
+    .all-about-cnt p{font-size: 17px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -203,7 +330,7 @@
 	.duck-img-footer img{display: none;}
     /* .navbar{display: none;} */
 
-    .navbar{padding: 20px 40px;}
+    .navbar{padding: 20px 30px;}
     .logo h6{display: none;}
     .logo img{border: none;}
     .navbar-contact a{display: none;}
@@ -322,6 +449,56 @@
     .content-head h3{width: 100%;font-size: 40px;line-height: normal;margin-bottom: 15px;}
     .content-cnt h5{font-size: 20px;}
     .content-cnt p{width: 100%;font-size: 16px;}
+/* ============================================= */
+
+    .marketing-txt{display: none;}
+    .marketing-txt-mobile{display: block;}
+    .marketing-txt{padding: 0px 30px;}
+    .marketing-img-1{width: 150px;height: 70px;margin: 0px;margin-top: 10px;}
+    .marketing-img-2 img{width: 200px;height: 70px;margin: 0px;margin-top: 10px;}
+    .marketing-txt h1{font-size: 73px;line-height: 75px;}
+    .marketing-txt h1 p{width: 260px; font-size: 12px;line-height: 15px;letter-spacing: 0.3px;margin-top: 10px;}
+    .marketing-marquee-item-list li{font-size: 20px;}
+    .marketing-animation-line{padding: 0px 30px; margin-bottom: 0px;}
+    .welcome-txt{margin-bottom: 50px;}
+    .welcome{padding: 80px 30px;padding-bottom: 0px;}
+    .welcome-heading h3{width: 100%;font-size: 36px;}
+    .welcome-insta-content{padding: 0px;padding-bottom: 100px;}
+    .welcome-img img{width: 260px;}
+    .welcome-paragraph p{width: 100%;}
+    .welcome-insta-img-one{justify-content: right;}
+    .welcome-insta-img-one img{width: 270px;padding-right: 40px;margin-top: 100px;}
+    .welcome-insta-img-two{padding-left: 50px;}
+    .welcome-insta-img-two img{width: 260px; padding-left: 0px;margin-top: -70px;}
+    .insta-circle-inner img{width: 100px;}
+    .insta-circle-outer img{width: 250px;}
+    .welcome-insta-circle{top: -3%; left: 27%;}
+    .all-about{padding: 0px 40px;padding-bottom: 100px;}
+    .all-about-content h1{font-size: 77px;line-height: 80px;margin-bottom: 0px;}
+    .all-about-content .all-about-line{font-size: 77px;line-height: 80px;}
+    .all-about-heading{margin-bottom: 70px;}
+    .welcome-float-txt h3{font-size: 18px;margin-bottom: 10px;}
+    .all-about-cnt h4{font-size: 30px; margin-bottom: 20px;}
+    .all-about-cnt p{font-size: 17px;line-height: 25px;}
+
+    .welcome-img, .welcome-insta{display: none;}
+    .welcome-mobile{display: block;}
+    .welcome-mobile-content{display: flex;justify-content: center;margin-bottom: 40px;}
+    .insta-circle-inner-mobile img{width: 120px;}
+    .insta-circle-outer-mobile img{width: 300px;}
+    .welcome-insta-circle-mobile{top: 20%;left: 24%;}
+    .all-about-heading{display: none;}
+    .all-about-head-mobile{display: block;}
+    .all-about-head-mobile{font-size: 74px;margin-bottom: 30px;}
+    .all-about-head-mobile .all-about-line{font-size: 74px;}
+    .all-about-content{justify-content: left;}
+    .all-about-cnt{width: 100%;margin-right: 0px;}
+
+
+
+
+
+    
 
 }
 
@@ -349,6 +526,22 @@
 /* ======================================================= */
     .grow-business-content h1{font-size: 48px;line-height: 55px; text-align: center;}
 
+    .marketing-txt-mobile h1{font-size: 65px;line-height: 70px;}
+    .welcome-insta-circle-mobile{top: 10%;left: 20%;}
+    .insta-circle-inner-mobile img{width: 110px;}
+    .insta-circle-outer-mobile img{width: 280px;}
+    .all-about-content h1{font-size: 65px;line-height: 65px;}
+
+
+
+
+
+
+
+
+
+
+
 
 
 	
@@ -357,7 +550,7 @@
 
 @media screen and (max-width:480px){
 
-    .navbar{padding: 20px 30px;}
+    .navbar{padding: 20px 25px;}
     .navbar-sidebar{width: 100%;}
     .navbar-sidebar.active{padding: 20px 30px;}
     .navbar-head-sec{padding: 0;}
@@ -432,6 +625,30 @@
     .btn-wrap-content .prev-btn, .btn-wrap-content .next-btn{width: 35px;height: 35px;}
     .btn-wrap-content .prev-btn{left: 20px;}
     .btn-wrap-content .next-btn{left: 65px;}
+
+/* ==================================================== */
+
+    .marketing-txt-mobile{padding: 0px 25px;}
+    .marketing-txt-mobile h1{width: 30%;font-size: 45px;line-height: 50px;}
+    .marketing-txt-mobile p{width: 90%;font-size: 17px;line-height: 25px;}
+    .marketing-marquee-item-list li{font-size: 18px;}
+    .welcome-heading h3{width: 85%;font-size: 30px;}
+    .welcome-paragraph p{font-size: 18px;}
+    .insta-circle-inner-mobile img{width: 80px;}
+    .insta-circle-outer-mobile img{width: 200px;}
+    .welcome-mobile-img-two img{margin-top: 70px;}
+    .welcome-insta-circle-mobile{top: 5%;}
+    .all-about{padding: 0px 25px;}
+    .all-about-content h1{font-size: 40px;line-height: 45px;}
+    .all-about-head-mobile .all-about-line{font-size: 40px;line-height: 45px;}
+
+
+
+
+
+
+
+
 
 
 }

@@ -1341,6 +1341,18 @@ ul {
     right: 620px;
 }
 
+.insta-circle-image img {
+    width: 350px;
+    animation-name: rotate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 190px;
+    left: -130px;
+}
 
 @keyframes rotate {
     from {
@@ -1361,19 +1373,6 @@ ul {
     position: absolute;
     bottom: -190px;
     left: -20px;
-}
-
-.insta-circle-image img {
-    width: 350px;
-    animation-name: rotate;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    border-radius: 50%;
-
-    position: absolute;
-    top: 190px;
-    left: -130px;
 }
 
 .duck-img-footer img {
@@ -1496,8 +1495,46 @@ a,
 
 .marketing
 {
-    padding: 100px 0px;
+    padding-top: 150px;
     padding-bottom: 20px;
+}
+
+.marketing-txt-mobile
+{
+    display: none;
+    padding: 0px 30px;
+}
+
+.marketing-txt-mobile .marketing-line
+{
+    display: block;
+}
+
+.marketing-txt-mobile h1
+{
+    width: 450px;
+    color: #fff;
+    font-size: 75px;
+    font-family: 'BatonTurbo-Bold';
+    text-transform: uppercase;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+.marketing-txt-mobile p
+{
+    color: #fff;
+    width: 440px;
+    font-size: 19px;
+    text-transform: none;
+    font-family: 'Grey-Regular';
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.marketing-txt-mobile img
+{
+    width: 100%;
 }
 
 .marketing-line
@@ -1585,9 +1622,8 @@ a,
     font-size: 30px;
     font-family: 'BatonTurbo-Medium';
     border-top: 1px solid #fff;
-    padding-top: 15px;
+    padding: 15px 0px;
     border-bottom: 1px solid #fff;
-    padding-bottom: 15px;
     padding-right: 10px;
     margin: 15px 0px;
     list-style: none;
@@ -1611,8 +1647,72 @@ a,
 
 .welcome
 {
-    padding: 100px;
+    padding: 70px;
 }
+
+.welcome-mobile
+{
+    display: none;
+}
+
+.welcome-mobile-content
+{
+    position: relative;
+}
+
+.welcome-mobile-img
+{
+    margin: 0px 15px;
+}
+
+.insta-circle-outer-mobile img {
+    width: 380px;
+    animation-name: rotate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(-360deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.welcome-insta-circle-mobile
+{
+    position: absolute;
+    top: 32%;
+    left: 39%;
+}
+
+.welcome-insta-cl-mobile
+{
+    position: relative;
+}
+
+.insta-circle-inner-mobile img
+{
+    width: 150px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.welcome-mobile-img-one img, .welcome-mobile-img-two img
+{
+    width: 250px;
+}
+.welcome-mobile-img-two img
+{
+    margin-top: 80px;
+}
+
 
 .welcome-float-txt {
     display: flex;
@@ -1643,6 +1743,7 @@ a,
     color: rgb(255, 255, 255, 0.6);
     font-size: 17px;
     font-family: 'Grey-Regular';
+    margin-bottom: 15px;
 }
 
 .welcome-content .row
@@ -1663,6 +1764,186 @@ a,
 {
     width: 400px;
 }
+
+.welcome-btn a
+{
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Grey-Medium';
+}
+
+.welcome-insta-content
+{
+    padding: 70px 0px;
+    padding-bottom: 150px;
+
+    position: relative;
+}
+
+.welcome-insta-img-one
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.welcome-insta-img-one img
+{
+    width: 380px;
+}
+
+.welcome-insta-img-two
+{
+    display: flex;
+    align-content: center;
+    justify-content: left;
+}
+
+.welcome-insta-img-two img
+{
+    width: 430px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.insta-circle-outer img {
+    width: 380px;
+    animation-name: rotate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(-360deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.welcome-insta-circle
+{
+    position: absolute;
+    top: 32%;
+    left: 39%;
+}
+
+.welcome-insta-cl
+{
+    position: relative;
+}
+
+.insta-circle-inner img
+{
+    width: 150px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.all-about
+{
+    padding-bottom: 100px;
+}
+
+.all-about-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+}
+
+.all-about-heading
+{
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+}
+
+.all-about-head-mobile
+{
+    display: none;
+}
+
+.all-about-content h1
+{
+    color: #fff;
+    font-size: 160px;
+    font-family: 'BatonTurbo-Bold';
+    margin-bottom: 40px;
+    line-height: 130px;
+}
+
+.all-about-content .all-about-line
+{
+    color: transparent;
+    font-size: 160px;
+    -webkit-text-stroke-width: 2.5px;
+    -webkit-text-stroke-color: #fff;
+    font-family: 'BatonTurbo-Bold';
+    letter-spacing: 2px;
+}
+
+.all-about-cnt
+{
+    width: 40%;
+    margin-right: 50px;
+}
+
+.all-about-cnt h4
+{
+    color: #fff;
+    font-size: 36px;
+    font-family: 'BatonTurbo-Bold';
+    margin-bottom: 30px;
+}
+
+.all-about-cnt p
+{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Grey-Regular';
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
