@@ -64,7 +64,7 @@
                                     </div>
                                     <div class="navbar-menu">
                                         <div class="navbar-menu-list active">
-                                            <a href="index.html"><h4>01</h4><h3>Home</h3></a>
+                                            <a href="about.html"><h4>01</h4><h3>About</h3></a>
                                         </div>
                                         <div class="navbar-menu-list">
                                             <a href="service.html"><h4>02</h4><h3>Service</h3></a>
@@ -666,11 +666,11 @@
 <!-- *********************************************************************** -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/wow.min.js"></script>
-    <script src="js/script.js"></script>
 
     <script>
         function show() {
@@ -691,62 +691,6 @@
                 allctn[index].classList.add('active');
             })
         })
-    </script>
-
-    <script>
-        const svg = document.getElementById("svg");
-        const tl = gsap.timeline({
-            onComplete: () => {
-                document.body.style.overflow = "visible";
-            },
-        });
-
-        const curve = "M0 502S195 620 365 466s331-81 444 4 228 123 376-21V0H0Z";
-        const flat = "M0 502S195 620 365 466s331-81 444 4 228 123 376-21V0H0Z";
-
-        tl.from(".loader-wrap-heading h1", {
-            delay: 0.5,
-            y: 200,
-            skewY: 20,
-        }).to(".loader-wrap-heading h1", {
-            delay: 0.5,
-            y: -200,
-            skewY: 20,
-        });
-        tl.to(svg, {
-            duration: 0,
-            attr: { d: curve },
-            ease: "power2.easeIn",
-        }).to(svg, {
-            duration: 0,
-            attr: { d: flat },
-            ease: "power2.easeOut",
-        });
-        tl.to(".loader-wrap", {
-            y: -500,
-        });
-        tl.to(".loader-wrap", {
-            zIndex: -1,
-            display: "none",
-        });
-        tl.from(
-            ".main",
-            {
-                y: 100,
-                opacity: 0,
-            },
-            "-=0.6"
-        );
-
-        tl.from(
-            "nav",
-            {
-                duration: 1,
-                opacity: 0,
-            },
-            "-=1.2"
-        );
-
     </script>
 
     </body>

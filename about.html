@@ -18,6 +18,18 @@
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     </head>
     <body>
+        <div class="loader-wrap">
+            <svg viewBox="0 0 1000 1000" preserveAspectRatio="none" fill="#0d3a84">
+                <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+            </svg>
+    
+            <div class="loader-wrap-heading">
+                <span>
+                    <h1>Logo</h1>
+                </span>
+            </div>
+        </div>
+<!-- ******************************** -->
         <div class="main" id="main-site">
             <div class="nav">
                 <div class="navbar">
@@ -609,14 +621,13 @@
 
         </div>
 <!-- *********************************************************************** -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/wow.min.js"></script>
-    <script src="js/script.js"></script>
-
     <script>
         function show() {
             document.querySelector('.hamburger').classList.toggle('open')
