@@ -1,7 +1,7 @@
 const scroll = new LocomotiveScroll({
-    el: document.querySelector('.main'),
-    smooth: true,
-    lerp: 0.040
+  el: document.querySelector(".main"),
+  smooth: true,
+  lerp: 0.04,
 });
 
 // const disabledKeys = ["u"];
@@ -19,24 +19,4 @@ const scroll = new LocomotiveScroll({
 //   }
 // });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/** @format */
