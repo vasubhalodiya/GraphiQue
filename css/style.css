@@ -592,7 +592,7 @@ ul {
 
 @media (max-width: 767px) {
     .loader-wrap svg {
-        width: 200vw;
+        width: 150vw;
         margin-left: -50vw;
     }
 
