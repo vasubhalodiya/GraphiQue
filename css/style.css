@@ -438,6 +438,23 @@ ul {
     overflow: hidden;
 }
 
+.slider-marquee {
+    width: 100%;
+    grid-column-gap: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    overflow: hidden;
+}
+
+.slider-marquee-image
+{
+    width: 400px;
+    /* height: ; */
+    object-fit: contain;
+    margin: 0px 10px;
+}
+
 .marquee-txt {
     background-color: #f3f3f3;
 }
@@ -494,6 +511,10 @@ ul {
 
 .scroll-img {
     animation: scroll 50s linear infinite;
+}
+
+.slider-scroll-img {
+    animation: scroll 10s linear infinite;
 }
 
 .scroll {
@@ -1014,7 +1035,7 @@ ul {
     color: #82a2cd;
     font-family: 'BatonTurbo-Bold';
     font-size: 48px;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease;
 }
 
 .service-post-name-btn {
