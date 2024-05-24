@@ -610,8 +610,19 @@ ul {
     font-family: 'Ogg';
 }
 
-
 @media (max-width: 767px) {
+    .loader-wrap svg {
+        width: 150vw;
+        margin-left: -50vw;
+    }
+
+    .loader-wrap .loader-wrap-heading,
+    .container h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 575px) {
     .loader-wrap svg {
         width: 150vw;
         margin-left: -50vw;
@@ -662,7 +673,7 @@ ul {
     background-color: #fff;
     font-size: 20px;
     font-family: 'Grey-Bold';
-    padding: 10px 30px;
+    padding: 7px 30px;
     border-radius: 50px;
 }
 
@@ -835,7 +846,7 @@ ul {
     font-family: 'Grey-Bold';
 }
 
-.navbar-contact a
+.button2
 {
     display: inline-block;
     transition: all 0.2s ease-in;
@@ -852,6 +863,7 @@ ul {
     border: none;
     margin-bottom: 0px;
 }
+
 .button2:active {
     color: #666;
 }
