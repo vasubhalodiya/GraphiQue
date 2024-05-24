@@ -4,20 +4,20 @@ const scroll = new LocomotiveScroll({
   lerp: 0.04,
 });
 
-// const disabledKeys = ["u"];
+const disabledKeys = ["u"];
 
-// const showAlert = (e) => {
-//   e.preventDefault();
-//   return alert("This feature is restricted!");
-// };
+const showAlert = (e) => {
+  e.preventDefault();
+  return alert("This feature is restricted!");
+};
 
-// document.addEventListener("contextmenu", showAlert);
+document.addEventListener("contextmenu", showAlert);
 
-// document.addEventListener("keydown", (e) => {
-//   if ((e.ctrlKey && disabledKeys.includes(e.key)) || e.key === "F12") {
-//     showAlert(e);
-//   }
-// });
+document.addEventListener("keydown", (e) => {
+  if ((e.ctrlKey && disabledKeys.includes(e.key)) || e.key === "F12") {
+    showAlert(e);
+  }
+});
 
 // page preloader animation
 
