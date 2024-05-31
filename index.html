@@ -667,12 +667,14 @@
 
         </div>
 <!-- *********************************************************************** -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
-    <script src="js/locomotive-scroll.min.js"></script>
     <script nomodule src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.6.0/polyfill.min.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script> -->
     <script nomodule src="https://polyfill.io/v3/polyfill.min.js?features=Object.assign%2CElement.prototype.append%2CNodeList.prototype.forEach%2CCustomEvent%2Csmoothscroll" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://assets.codepen.io/16327/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@latest/bundled/lenis.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
@@ -697,6 +699,81 @@
                 allctn[index].classList.add('active');
             })
         })
+    </script>
+
+    <script>
+        const lenis = new Lenis({
+            duration: 2,
+            lerp: 0.04
+        });
+
+        lenis.on('scroll', (e) => {
+        console.log(e)
+        })
+
+        lenis.on('scroll', ScrollTrigger.update)
+
+        gsap.ticker.add((time)=>{
+        lenis.raf(time * 800)
+        })
+
+        gsap.ticker.lagSmoothing(0)
+    </script>
+
+    <script>
+        const svg = document.getElementById("svg");
+        const tl = gsap.timeline({
+        onComplete: () => {
+            document.body.style.overflow = "visible";
+        },
+        });
+
+        const curve = "M0 502S195 620 365 466s331-81 444 4 228 123 376-21V0H0Z";
+        const flat = "M0 502S195 620 365 466s331-81 444 4 228 123 376-21V0H0Z";
+
+        tl.from(".loader-wrap-heading h1", {
+        delay: 0.5,
+        y: 200,
+        skewY: 20,
+        }).to(".loader-wrap-heading h1", {
+        delay: 0.5,
+        y: -200,
+        skewY: 20,
+        });
+        tl.to(svg, {
+        duration: 0,
+        attr: { d: curve },
+        ease: "power2.easeIn",
+        }).to(svg, {
+        duration: 0,
+        attr: { d: flat },
+        ease: "power2.easeOut",
+        });
+        tl.to(".loader-wrap", {
+        y: -500,
+        });
+        tl.to(".loader-wrap", {
+        zIndex: -1,
+        display: "none",
+        });
+        tl.from(
+        ".main",
+        {
+            y: 100,
+            opacity: 0,
+        },
+        "-=0.9"
+        );
+
+        tl.from(
+        "nav",
+        {
+            duration: 1,
+            opacity: 0,
+        },
+        "-=1.2"
+        );
+
     </script>
 
     </body>
