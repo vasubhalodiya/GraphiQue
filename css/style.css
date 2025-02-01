@@ -1617,6 +1617,11 @@ a,
     margin-bottom: 7px;
 }
 
+.graphique-service h6 a:hover
+{
+    color: #fff;
+}
+
 .copyright-graphique a:hover {
     color: #97a2b6;
     text-decoration: underline;
